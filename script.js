@@ -11,3 +11,11 @@ function startSurvey() {
     portBird.classList.remove("hidden")
 }
 
+const form = document.querySelector('#form');
+
+form.addEventListener("submit", processAnswer);
+
+function processAnswer() {
+        let sppCode = document.querySelector('#spp-code').value;
+        console.log(sppCode);
+    }
