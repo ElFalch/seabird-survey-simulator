@@ -5,12 +5,14 @@ let portBird = document.getElementById("port-bird")
 
 startButton.addEventListener("click", startSurvey)
 
-// hide start button and show first bird image when start button is clicked
+// hide start button, show first bird image and save its src when start button is clicked
 
 function startSurvey() {
-    console.log("Seabird survey started")
-    startButton.classList.add("hidden")
-    portBird.classList.remove("hidden")
+    console.log("Seabird survey started");
+    startButton.classList.add("hidden");
+    portBird.classList.remove("hidden");
+    let src = portBird.src ;
+    console.log(src);
 }
 
 // store submitted value
@@ -27,3 +29,6 @@ function processAnswer(e) {
     }
 
 });
+
+// compare submitted value with correct answer 
+
