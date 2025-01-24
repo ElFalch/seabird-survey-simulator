@@ -15,7 +15,7 @@ function startSurvey() {
     console.log(src);
 }
 
-// array with correct answer for each src
+// correct answer and src for each image
 
 const questions = {
         question: "https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp",
@@ -23,7 +23,7 @@ const questions = {
     };
 
 
-// store submitted value
+// store submitted value, assess and log if it is correct or not 
 
 const form = document.querySelector('#form');
 
