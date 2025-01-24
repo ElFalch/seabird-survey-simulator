@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 const startButton = document.getElementById("start")
 let portBird = document.getElementById("port-bird")
 
@@ -15,7 +17,10 @@ const form = document.querySelector('#form');
 
 form.addEventListener("submit", processAnswer);
 
-function processAnswer() {
-        let sppCode = document.querySelector('#spp-code').value;
-        console.log(sppCode);
+function processAnswer(e) {
+        e.preventDefault();
+        let formData = e.target;
+        console.log(formData.sppCode.value);
     }
+
+});
