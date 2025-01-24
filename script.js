@@ -13,6 +13,8 @@ function startSurvey() {
     portBird.classList.remove("hidden")
 }
 
+// store submitted value
+
 const form = document.querySelector('#form');
 
 form.addEventListener("submit", processAnswer);
@@ -20,7 +22,8 @@ form.addEventListener("submit", processAnswer);
 function processAnswer(e) {
         e.preventDefault();
         let formData = e.target;
-        console.log(formData.sppCode.value);
+        let sppCode = formData.sppCode.value; 
+        console.log(sppCode);
     }
 
 });
