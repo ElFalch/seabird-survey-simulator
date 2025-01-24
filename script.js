@@ -33,6 +33,11 @@ function processAnswer(e) {
         e.preventDefault();
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
+        if (sppCode === questions.answer) {
+            console.log("correct");    
+        } else {
+            console.log("incorrect");
+        }
     }
 });
 
