@@ -15,6 +15,14 @@ function startSurvey() {
     console.log(src);
 }
 
+// array with correct answer for each src
+
+const questions = {
+        question: "https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp",
+        answer: "3"
+    };
+
+
 // store submitted value
 
 const form = document.querySelector('#form');
@@ -25,10 +33,8 @@ function processAnswer(e) {
         e.preventDefault();
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
-        console.log(sppCode);
     }
-
 });
 
-// compare submitted value with correct answer 
+
 
