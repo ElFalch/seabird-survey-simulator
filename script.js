@@ -47,10 +47,6 @@ function processAnswer(e) {
             reset.classList.remove("hidden"); 
         }
     }
-});
-
-
-// hide start button, show first bird image and save its src when start button is clicked
 
 function nextSurvey() {
     console.log("next survey started");
@@ -63,3 +59,5 @@ function tryAgain(e) {
     submit.classList.remove("hidden");
     reset.classList.add("hidden");
 }
+
+});
