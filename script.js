@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const startButton = document.getElementById("start")
 let portBird = document.getElementById("port-bird")
+let starBird = document.getElementById("star-bird")
 
 startButton.addEventListener("click", startSurvey)
 
@@ -50,6 +51,12 @@ function processAnswer(e) {
 
 function nextSurvey() {
     console.log("next survey started");
+    nextButton.classList.add("hidden");
+    correct.classList.add("hidden");
+    portBird.classList.add("hidden");
+    starBird.classList.remove("hidden");
+    submit.classList.remove("hidden");
+    form.sppCode.value = "0";
 }
 
 form.addEventListener("reset", tryAgain);
