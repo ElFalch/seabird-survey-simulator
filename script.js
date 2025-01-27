@@ -57,6 +57,8 @@ function nextSurvey() {
     starBird.classList.remove("hidden");
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
+    let src = starBird.src ;
+    console.log(src);
 }
 
 form.addEventListener("reset", tryAgain);
