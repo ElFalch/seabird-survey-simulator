@@ -32,7 +32,7 @@ form.addEventListener("submit", processAnswer);
 function processAnswer(e) {
 
         e.preventDefault();
-        
+        submit.classList.add("hidden");
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
         if (sppCode === questions.answer) {
