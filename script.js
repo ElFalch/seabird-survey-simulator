@@ -29,6 +29,8 @@ const form = document.querySelector('#form');
 
 const nextButton = document.getElementById("next")
 
+nextButton.addEventListener("click", nextSurvey)
+
 form.addEventListener("submit", processAnswer);
 
 function processAnswer(e) {
@@ -47,7 +49,6 @@ function processAnswer(e) {
     }
 });
 
-nextButton.addEventListener("click", nextSurvey)
 
 // hide start button, show first bird image and save its src when start button is clicked
 
