@@ -13,7 +13,7 @@ let questions = {
     answer: ["3", "2"]
 };
 
-// hide start button, show first bird image and save its src when start button is clicked
+// hide start button and show first bird image when start button is clicked
 
 function startSurvey() {
     console.log("Seabird survey started");
@@ -25,7 +25,7 @@ function startSurvey() {
     console.log(questions.answer[1]);
 }
 
-// store submitted value, assess and log if it is correct or not 
+// store submitted value, assess and log if it is correct or not, then give option for next step.
 
 const form = document.querySelector('#form');
 
@@ -50,6 +50,8 @@ function processAnswer(e) {
         }
     }
 
+// reset form and change image when next button is clicked     
+
 function nextSurvey() {
     console.log("next survey started");
     nextButton.classList.add("hidden");
@@ -61,6 +63,8 @@ function nextSurvey() {
     let src = starBird.src ;
     console.log(src);
 }
+
+// reset form when try again button is clicked 
 
 form.addEventListener("reset", tryAgain);
 
