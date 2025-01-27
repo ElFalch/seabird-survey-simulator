@@ -39,9 +39,15 @@ function processAnswer(e) {
             correct.classList.remove("hidden");    
         } else {
             incorrect.classList.remove("hidden"); 
+            reset.classList.remove("hidden"); 
         }
     }
 });
 
+form.addEventListener("reset", tryAgain);
 
-
+function tryAgain(e) {
+    incorrect.classList.add("hidden"); 
+    submit.classList.remove("hidden");
+    reset.classList.add("hidden");
+}
