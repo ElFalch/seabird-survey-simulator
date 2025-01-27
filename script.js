@@ -30,13 +30,15 @@ const form = document.querySelector('#form');
 form.addEventListener("submit", processAnswer);
 
 function processAnswer(e) {
+
         e.preventDefault();
+        
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
         if (sppCode === questions.answer) {
-            console.log("correct");    
+            correct.classList.remove("hidden");    
         } else {
-            console.log("incorrect");
+            incorrect.classList.remove("hidden"); 
         }
     }
 });
