@@ -27,11 +27,11 @@ const questions = {
 
 const form = document.querySelector('#form');
 
+form.addEventListener("submit", processAnswer);
+
 const nextButton = document.getElementById("next")
 
 nextButton.addEventListener("click", nextSurvey)
-
-form.addEventListener("submit", processAnswer);
 
 function processAnswer(e) {
 
