@@ -41,7 +41,7 @@ function processAnswer(e) {
         submit.classList.add("hidden");
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
-        if (sppCode === questions.answer) {
+        if (sppCode === questions.answer[0]) {
             correct.classList.remove("hidden");
             nextButton.classList.remove("hidden");    
         } else {
