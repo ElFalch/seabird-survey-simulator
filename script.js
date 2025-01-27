@@ -27,6 +27,8 @@ const questions = {
 
 const form = document.querySelector('#form');
 
+const nextButton = document.getElementById("next")
+
 form.addEventListener("submit", processAnswer);
 
 function processAnswer(e) {
@@ -36,13 +38,22 @@ function processAnswer(e) {
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
         if (sppCode === questions.answer) {
-            correct.classList.remove("hidden");    
+            correct.classList.remove("hidden");
+            nextButton.classList.remove("hidden");    
         } else {
             incorrect.classList.remove("hidden"); 
             reset.classList.remove("hidden"); 
         }
     }
 });
+
+nextButton.addEventListener("click", nextSurvey)
+
+// hide start button, show first bird image and save its src when start button is clicked
+
+function nextSurvey() {
+    console.log("next survey started");
+}
 
 form.addEventListener("reset", tryAgain);
 
