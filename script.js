@@ -23,9 +23,6 @@ function startSurvey() {
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     portBird.src = questions.question[randomBirdIndex];
     portBird.alt = questions.alt[randomBirdIndex];
-    console.log(randomBirdIndex)
-    console.log(portBird.src);
-    console.log(portBird.alt);
     portBird.classList.remove("hidden");
 }
 
@@ -45,7 +42,7 @@ function processAnswer(e) {
         submit.classList.add("hidden");
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
-        if (sppCode === questions.answer[0]) {
+        if (sppCode === questions.answer[randomBirdIndex]) {
             correct.classList.remove("hidden");
             nextButton.classList.remove("hidden");    
         } else {
