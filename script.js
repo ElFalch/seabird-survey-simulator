@@ -8,21 +8,25 @@ startButton.addEventListener("click", startSurvey)
 
 // correct answer and src for each image
 
-let questions = {
+const questions = {
     question: ["https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/guillemot.webp"],
-    answer: ["3", "2"]
+    answer: ["3", "2"],
+    alt: ["An Atlantic Puffin sat on the water", "A Common Guillemot in Winter plumage sat on the water"]
 };
+
 
 // hide start button and show first bird image when start button is clicked
 
 function startSurvey() {
     console.log("Seabird survey started");
     startButton.classList.add("hidden");
+    randomBirdIndex = Math.floor(Math.random() * questions.question.length);
+    portBird.src = questions.question[randomBirdIndex];
+    portBird.alt = questions.alt[randomBirdIndex];
+    console.log(randomBirdIndex)
+    console.log(portBird.src);
+    console.log(portBird.alt);
     portBird.classList.remove("hidden");
-    console.log(questions.question[0]);
-    console.log(questions.answer[0]);
-    console.log(questions.question[1]);
-    console.log(questions.answer[1]);
 }
 
 // store submitted value, assess and log if it is correct or not, then give option for next step.
