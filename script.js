@@ -58,13 +58,12 @@ function nextSurvey() {
     nextButton.classList.add("hidden");
     correct.classList.add("hidden");
     portBird.classList.add("hidden");
+    randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     starBird.src = questions.question[randomBirdIndex];
     starBird.alt = questions.alt[randomBirdIndex];
     starBird.classList.remove("hidden");
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
-    let src = starBird.src ;
-    console.log(src);
 }
 
 // reset form when try again button is clicked 
