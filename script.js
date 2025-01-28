@@ -4,7 +4,15 @@ const startButton = document.getElementById("start")
 let portBird = document.getElementById("port-bird")
 let starBird = document.getElementById("star-bird")
 
+
 startButton.addEventListener("click", startSurvey)
+
+
+// sides
+
+const sides = {
+    side: ["port", "star"]
+};
 
 // correct answer and src for each image
 
@@ -21,9 +29,15 @@ function startSurvey() {
     console.log("Seabird survey started");
     startButton.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
-    portBird.src = questions.question[randomBirdIndex];
-    portBird.alt = questions.alt[randomBirdIndex];
-    portBird.classList.remove("hidden");
+    randomSide = Math.floor(Math.random() * sides.side);
+    if (randomSide === "port") {
+        firstBird = portBird;
+    } else {
+        firstBird = starBird;
+    }
+    firstBird.src = questions.question[randomBirdIndex];
+    firstBird.alt = questions.alt[randomBirdIndex];
+    firstBird.classList.remove("hidden");
 }
 
 // store submitted value, assess and log if it is correct or not, then give option for next step.
@@ -57,11 +71,17 @@ function nextSurvey() {
     console.log("next survey started");
     nextButton.classList.add("hidden");
     correct.classList.add("hidden");
-    portBird.classList.add("hidden");
+    firstBird.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
-    starBird.src = questions.question[randomBirdIndex];
-    starBird.alt = questions.alt[randomBirdIndex];
-    starBird.classList.remove("hidden");
+    randomSide = Math.floor(Math.random() * sides.side);
+    if (randomSide === "port") {
+        nextBird = portBird;
+    } else {
+        nextBird = starBird;
+    }
+    nextBird.src = questions.question[randomBirdIndex];
+    nextBird.alt = questions.alt[randomBirdIndex];
+    nextBird.classList.remove("hidden");
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
 }
