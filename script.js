@@ -10,9 +10,7 @@ startButton.addEventListener("click", startSurvey)
 
 // sides
 
-const sides = {
-    side: ["port", "star"]
-};
+const side = ["port", "star"]
 
 // correct answer and src for each image
 
@@ -29,11 +27,11 @@ function startSurvey() {
     console.log("Seabird survey started");
     startButton.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
-    randomSide = Math.floor(Math.random() * sides.side);
-    if (randomSide === "port") {
-        firstBird = portBird;
+    randomSide = Math.floor(Math.random() * side.length);
+    if (side[randomSide] === "port") {
+      firstBird = portBird;
     } else {
-        firstBird = starBird;
+      firstBird = starBird;
     }
     firstBird.src = questions.question[randomBirdIndex];
     firstBird.alt = questions.alt[randomBirdIndex];
@@ -73,8 +71,8 @@ function nextSurvey() {
     correct.classList.add("hidden");
     firstBird.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
-    randomSide = Math.floor(Math.random() * sides.side);
-    if (randomSide === "port") {
+    randomSide = Math.floor(Math.random() * side.length);
+    if (side[randomSide] === "port") {
         nextBird = portBird;
     } else {
         nextBird = starBird;
@@ -84,6 +82,7 @@ function nextSurvey() {
     nextBird.classList.remove("hidden");
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
+    console.log(side[randomSide]);
 }
 
 // reset form when try again button is clicked 
