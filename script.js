@@ -15,10 +15,10 @@ const side = ["port", "star"]
 // correct answer and src for each image
 
 const questions = {
-    question: ["https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/guillemot.webp"],
-    sppAnswer: ["3", "2"],
-    numAnswer: ["1", "1"],
-    alt: ["An Atlantic Puffin sat on the water", "A Common Guillemot in Winter plumage sat on the water"]
+    question: ["https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/guillemot.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/razorbill.webp"],
+    sppAnswer: ["3", "2","1"],
+    numAnswer: ["1", "1","2"],
+    alt: ["An Atlantic Puffin sat on the water", "A Common Guillemot in Winter plumage sat on the water","Two razorbills sat on the water"]
 };
 
 
