@@ -16,7 +16,8 @@ const side = ["port", "star"]
 
 const questions = {
     question: ["https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/guillemot.webp"],
-    answer: ["3", "2"],
+    sppAnswer: ["3", "2"],
+    numAnswer: ["1", "1"],
     alt: ["An Atlantic Puffin sat on the water", "A Common Guillemot in Winter plumage sat on the water"]
 };
 
