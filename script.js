@@ -55,7 +55,8 @@ function processAnswer(e) {
         submit.classList.add("hidden");
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
-        if (sppCode === questions.answer[randomBirdIndex]) {
+        let number = formData.number.value; 
+        if (sppCode === questions.sppAnswer[randomBirdIndex] & number === questions.numAnswer[randomBirdIndex]) {
             correct.classList.remove("hidden");
             nextButton.classList.remove("hidden");    
         } else {
@@ -83,6 +84,7 @@ function nextSurvey() {
     nextBird.classList.remove("hidden");
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
+    form.number.value = "0";
     console.log(side[randomSide]);
 }
 
