@@ -63,13 +63,22 @@ function processAnswer(e) {
         }
     }
 
-// reset form and change image when next button is clicked     
+// reset form and replace bird image/ side when next button is clicked     
 
 function nextSurvey() {
-    console.log("next survey started");
+    if (portBird.alt) {
+        portBird.src = "";
+        portBird.alt = "";
+    }
+
+    if (starBird.alt) {
+        starBird.src = "";
+        starBird.alt = "";
+    }
+    
     nextButton.classList.add("hidden");
     correct.classList.add("hidden");
-    firstBird.classList.add("hidden");
+    console.log("next survey started");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     if (side[randomSide] === "port") {
