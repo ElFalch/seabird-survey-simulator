@@ -66,16 +66,7 @@ function processAnswer(e) {
 // reset form and replace bird image/ side when next button is clicked     
 
 function nextSurvey() {
-    if (portBird.alt) {
-        portBird.src = "";
-        portBird.alt = "";
-    }
-
-    if (starBird.alt) {
-        starBird.src = "";
-        starBird.alt = "";
-    }
-    
+    resetSea()    
     nextButton.classList.add("hidden");
     correct.classList.add("hidden");
     console.log("next survey started");
@@ -92,6 +83,18 @@ function nextSurvey() {
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
     console.log(side[randomSide]);
+}
+
+function resetSea() {
+if (portBird.alt) {
+    portBird.src = "";
+    portBird.alt = "";
+}
+
+if (starBird.alt) {
+    starBird.src = "";
+    starBird.alt = "";
+}
 }
 
 // reset form when try again button is clicked 
