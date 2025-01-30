@@ -87,6 +87,7 @@ function nextSurvey() {
     submit.classList.remove("hidden");
     form.sppCode.value = "0";
     form.number.value = "0";
+    form.side.value = "0";
     console.log(side[randomSide]);
 }
 
