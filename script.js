@@ -10,7 +10,7 @@ startButton.addEventListener("click", startSurvey)
 
 // sides
 
-const side = ["port", "star"]
+const side = ["Port", "Star"]
 
 // correct answer and src for each image
 
@@ -29,7 +29,7 @@ function startSurvey() {
     startButton.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
-    if (side[randomSide] === "port") {
+    if (side[randomSide] === "Port") {
       firstBird = portBird;
     } else {
       firstBird = starBird;
@@ -57,7 +57,7 @@ function processAnswer(e) {
         let sppCode = formData.sppCode.value; 
         let number = formData.number.value; 
         let sidePS = formData.side.value; 
-        if (sppCode === questions.sppAnswer[randomBirdIndex] & number === questions.numAnswer[randomBirdIndex] & sidePS == side[randomSide]) {
+        if (sppCode === questions.sppAnswer[randomBirdIndex] & number === questions.numAnswer[randomBirdIndex] & sidePS === side[randomSide]) {
             correct.classList.remove("hidden");
             nextButton.classList.remove("hidden");    
         } else {
@@ -75,7 +75,7 @@ function nextSurvey() {
     console.log("next survey started");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
-    if (side[randomSide] === "port") {
+    if (side[randomSide] === "Port") {
         nextBird = portBird;
     } else {
         nextBird = starBird;
