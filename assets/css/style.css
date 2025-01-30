@@ -33,6 +33,7 @@ label {
 .btn {
     background-color: #a5aeb6;
     color: black;
+    font-family: var(--heading-font);
 }
 
 option {
