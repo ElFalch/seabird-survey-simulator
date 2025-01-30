@@ -27,6 +27,7 @@ const questions = {
 function startSurvey() {
     console.log("Seabird survey started");
     startButton.classList.add("hidden");
+    submit.classList.remove("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     if (side[randomSide] === "Port") {
