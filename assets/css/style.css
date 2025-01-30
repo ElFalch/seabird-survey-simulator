@@ -18,6 +18,10 @@ main {
     background-color: #263b44;
 }
 
+label {
+    font-family: var(--heading-font);
+}
+
 .hidden {
     display: none;
 }
