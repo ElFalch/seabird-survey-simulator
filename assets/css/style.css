@@ -30,3 +30,8 @@ main {
     background-color: #a5aeb6;
     color: black;
 }
+
+#start,
+#next {
+    margin-top: 100%;
+}
