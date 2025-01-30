@@ -35,6 +35,11 @@ label {
     color: black;
 }
 
+option {
+    font-size: xx-large;
+}
+
+
 #start,
 #next {
     margin-top: 100%;
