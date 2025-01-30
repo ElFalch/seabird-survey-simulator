@@ -56,7 +56,8 @@ function processAnswer(e) {
         let formData = e.target;
         let sppCode = formData.sppCode.value; 
         let number = formData.number.value; 
-        if (sppCode === questions.sppAnswer[randomBirdIndex] & number === questions.numAnswer[randomBirdIndex]) {
+        let sidePS = formData.side.value; 
+        if (sppCode === questions.sppAnswer[randomBirdIndex] & number === questions.numAnswer[randomBirdIndex] & sidePS == side[randomSide]) {
             correct.classList.remove("hidden");
             nextButton.classList.remove("hidden");    
         } else {
