@@ -24,3 +24,8 @@ main {
 .navbar {
     background-color: #394a46;
 }
+
+.btn {
+    background-color: #a5aeb6;
+    color: black;
+}
