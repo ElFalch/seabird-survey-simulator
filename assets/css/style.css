@@ -26,6 +26,24 @@ option {
     font-size: xx-large;
 }
 
+#incorrect,
+#correct {
+    display: table;
+    margin: 0 auto;
+
+}
+
+#right,
+#next,
+#wrong,
+#reset {
+    font-size: xx-large;
+}
+
+#wrong {
+    color: red;
+}
+
 .bird-col {
     padding-top: 15%;
 }
