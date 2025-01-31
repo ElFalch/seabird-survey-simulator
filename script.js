@@ -62,10 +62,10 @@ function processAnswer(e) {
         let number = formData.number.value; 
         let sidePS = formData.side.value; 
         if (sppCode === questions.sppAnswer[randomBirdIndex] & number === questions.numAnswer[randomBirdIndex] & sidePS === side[randomSide]) {
-            correct.classList.remove("hidden");
-            nextButton.classList.remove("hidden");    
+            right.classList.remove("hidden");
+            next.classList.remove("hidden");
         } else {
-            incorrect.classList.remove("hidden"); 
+            wrong.classList.remove("hidden"); 
             reset.classList.remove("hidden"); 
         }
     }
@@ -77,8 +77,9 @@ const nextButton = document.getElementById("next")
 nextButton.addEventListener("click", nextSurvey)
 
 function nextSurvey() {
-    resetSea()    
-    correct.classList.add("hidden");
+    clearSea()    
+    right.classList.add("hidden");
+    next.classList.add("hidden");
     console.log("next survey started");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
@@ -94,7 +95,6 @@ function nextSurvey() {
     form.sppCode.value = "0";
     form.number.value = "0";
     form.side.value = "0";
-    console.log(side[randomSide]);
 }
 
 function resetSea() {
@@ -114,9 +114,9 @@ if (starBird.alt) {
 form.addEventListener("reset", tryAgain);
 
 function tryAgain(e) {
-    incorrect.classList.add("hidden"); 
+    wrong.classList.add("hidden");
+    reset.classList.add("hidden"); 
     submit.classList.remove("hidden");
-    reset.classList.add("hidden");
 }
 
 });
