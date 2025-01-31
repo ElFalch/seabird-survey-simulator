@@ -26,6 +26,10 @@ option {
     font-size: xx-large;
 }
 
+.bird-col {
+    padding-top: 15%;
+}
+
 .hidden {
     display: none;
 }
