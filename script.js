@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 const startButton = document.getElementById("start")
 let portBird = document.getElementById("port-bird")
 let starBird = document.getElementById("star-bird")
-
+const recordMessage = document.getElementById("record-message")
 
 startButton.addEventListener("click", startSurvey)
 
@@ -28,6 +28,7 @@ function startSurvey() {
     console.log("Seabird survey started");
     startButton.classList.add("hidden");
     footer.classList.remove("hidden");
+    recordMessage.classList.remove("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     if (side[randomSide] === "Port") {
