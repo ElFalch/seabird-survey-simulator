@@ -97,7 +97,7 @@ function nextSurvey() {
     form.side.value = "0";
 }
 
-function resetSea() {
+function clearSea() {
 if (portBird.alt) {
     portBird.src = "";
     portBird.alt = "";
