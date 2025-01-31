@@ -47,9 +47,8 @@ const form = document.querySelector('#form');
 
 form.addEventListener("submit", processAnswer);
 
-const nextButton = document.getElementById("next")
-
-nextButton.addEventListener("click", nextSurvey)
+const correct = document.getElementById("correct")
+const incorrect = document.getElementById("incorrect")
 
 function processAnswer(e) {
 
@@ -69,6 +68,10 @@ function processAnswer(e) {
     }
 
 // reset form and replace bird image/ side when next button is clicked     
+
+const nextButton = document.getElementById("next")
+
+nextButton.addEventListener("click", nextSurvey)
 
 function nextSurvey() {
     resetSea()    
