@@ -120,16 +120,18 @@
             </div>
           </div>
           <div class="col">
-            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-            <span id="correct" class="hidden">
+            <div class="hidden" id="correct">
               <h2>Correct!</h2>
-              <button id="next" class="btn btn-primary hidden">Next</button>
-            </span>
-            <span id="incorrect" class="hidden">
-              <h2>Incorrect</h2>
-              <button id="reset" type="reset" class="btn btn-primary hidden">Try again</button>
-            </span>
+              <button id="next" class="btn btn-primary">Next</button>
+            </div>
           </div>
+          <div class="col">
+            <div class="hidden" id="incorrect">
+              <h2>Incorrect</h2>
+              <button id="reset" type="reset" class="btn btn-primary">Try again</button>
+            </div>
+          </div>
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </form>
