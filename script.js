@@ -75,7 +75,6 @@ nextButton.addEventListener("click", nextSurvey)
 
 function nextSurvey() {
     resetSea()    
-    nextButton.classList.add("hidden");
     correct.classList.add("hidden");
     console.log("next survey started");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
