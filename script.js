@@ -47,8 +47,11 @@ const form = document.querySelector('#form');
 
 form.addEventListener("submit", processAnswer);
 
-const correct = document.getElementById("correct")
-const incorrect = document.getElementById("incorrect")
+const right = document.getElementById("right")
+const wrong = document.getElementById("wrong")
+const next = document.getElementById("next")
+const reset = document.getElementById("reset")
+
 
 function processAnswer(e) {
 
