@@ -64,7 +64,8 @@ option {
     font-size: xx-large;
 }
 
-#record-message {
+#record-message-port,
+#record-message-star {
     margin-top: 10%;
     color: white;
 }
