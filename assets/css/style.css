@@ -48,3 +48,8 @@ option {
 #next {
     margin-top: 100%;
 }
+
+#record-message {
+    margin-top: 10%;
+    color: white;
+}
