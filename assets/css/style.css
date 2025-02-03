@@ -40,6 +40,15 @@ option {
     font-size: xx-large;
 }
 
+#correct {
+    width: 30%; 
+}
+
+#next-container {
+    margin: 5%;
+}
+
+
 #wrong {
     color: red;
 }
