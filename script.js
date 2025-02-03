@@ -16,7 +16,7 @@ const side = ["Port", "Star"]
 // correct answer and src for each image
 
 const questions = {
-    question: ["https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/puffin.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/guillemot.webp","https://8000-elfalch-seabirdsurveysi-gpj5xixjgi7.ws.codeinstitute-ide.net/assets/images/razorbill.webp"],
+    question: ["assets/images/puffin.webp","assets/images/guillemot.webp","assets/images/razorbill.webp"],
     sppAnswer: ["PU", "GU","RA"],
     numAnswer: ["1", "1","2"],
     alt: ["An Atlantic Puffin sat on the water", "A Common Guillemot in Winter plumage sat on the water","Two razorbills sat on the water"]
