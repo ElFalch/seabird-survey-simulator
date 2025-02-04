@@ -62,6 +62,11 @@ option {
     display: none;
 }
 
+.top-space {
+    margin-top: 2rem;
+}
+
+
 .navbar {
     background-color: #394a46;
 }
