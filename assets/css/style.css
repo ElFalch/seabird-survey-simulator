@@ -1,9 +1,14 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Press+Start+2P&display=swap');
 
+/* css variables */
 :root {
     --heading-font: "Press Start 2P", serif;
     --main-font: "Patrick Hand", serif;
 }
+
+/* global styles */ 
 
 body {
     font-family: var(--main-font);
@@ -18,6 +23,7 @@ main {
     background-color: #263b44;
     color: white;
 }
+ /* form */ 
 
 label {
     font-family: var(--heading-font);
@@ -27,12 +33,57 @@ option {
     font-size: xx-large;
 }
 
+/* hide all elements with this class */ 
+
+.hidden {
+    display: none;
+}
+
+/* give all elements with this class 2rem margin */ 
+
+.space {
+    margin: 2rem;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #a5aeb6;
+}
+
+.bird-col {
+    padding-top: 15%;
+}
+
+#start,
+#submit {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+}
+
+/* message with reminder enter values into form */ 
+
+#record-message-port,
+#record-message-star {
+    margin-top: 10%;
+    color: white;
+}
+
+
+/* divs containing content displayed if answer correct or incorrect */ 
+
 #incorrect,
 #correct {
     display: table;
     margin: 0 auto;
 
 }
+
+#correct {
+    width: 30%; 
+}
+
+/* form buttons */ 
 
 #right,
 #next,
@@ -41,37 +92,28 @@ option {
     font-size: xx-large;
 }
 
-#correct {
-    width: 30%; 
+#wrong {
+    color: red;
 }
+
+
+/* span containing next button */ 
 
 #next-container {
     margin: 5%;
 }
 
+/* info page */
 
-#wrong {
-    color: red;
-}
-
-.bird-col {
-    padding-top: 15%;
-}
-
-.hidden {
-    display: none;
-}
-
-.space {
-    margin: 2rem;
+#info {
+    font-size: x-large;
 }
 
 .btn-dark {
     background-color: black;
 }
-.navbar {
-    background-color: #a5aeb6;
-}
+
+/* info cards */ 
 
 .card {
     background-color: #a5aeb6;
@@ -90,18 +132,3 @@ option {
     font-size: x-large;
 }
 
-#start,
-#submit {
-    font-family: var(--heading-font);
-    font-size: xx-large;
-}
-
-#record-message-port,
-#record-message-star {
-    margin-top: 10%;
-    color: white;
-}
-
-#info {
-    font-size: x-large;
-}
