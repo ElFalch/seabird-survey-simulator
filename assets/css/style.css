@@ -92,8 +92,6 @@ option {
 
 #start,
 #submit {
-    background-color: #a5aeb6;
-    color: black;
     font-family: var(--heading-font);
     font-size: xx-large;
 }
