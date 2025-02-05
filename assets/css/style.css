@@ -2,11 +2,11 @@
 
 :root {
     --heading-font: "Press Start 2P", serif;
-    --main-font: "Lexend Giga", serif;
+    --main-font: "Patrick Hand", serif;
 }
 
 body {
-    font-family: "Patrick Hand", serif;
+    font-family: var(--main-font);
 }
 
 h1,
