@@ -70,7 +70,24 @@ option {
     background-color: black;
 }
 .navbar {
-    background-color: #394a46;
+    background-color: #a5aeb6;
+}
+
+.card {
+    background-color: #a5aeb6;
+    min-width: 300px;
+}
+
+.card-img-top {
+    max-height: 480px;
+}
+
+.card-title {
+    font-family: var(--heading-font);
+}
+ 
+.card-body {
+    font-size: x-large;
 }
 
 #start,
