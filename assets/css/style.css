@@ -66,7 +66,9 @@ option {
     margin: 2rem;
 }
 
-
+.btn-dark {
+    background-color: black;
+}
 .navbar {
     background-color: #394a46;
 }
