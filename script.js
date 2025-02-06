@@ -30,6 +30,23 @@ document.addEventListener("DOMContentLoaded", function () {
     ],
   };
 
+  const flying = {
+    question: [
+      "assets/images/flying-birds/gannet.webp",
+      "assets/images/flying-birds/guillemot2.webp",
+      "assets/images/flying-birds/herring-gull.webp",
+      "assets/images/flying-birds/kittiwake.webp",
+    ],
+    sppAnswer: ["GX", "GU", "HG","KI"],
+    numAnswer: ["1", "1", "1","1"],
+    alt: [
+      "A Northern Gannet flying",
+      "A Common Guillemot flying",
+      "A Herring Gull flying",
+      "A Kittiwake flying",
+    ],
+  };
+
   // hide start button and show first bird image when start button is clicked
 
   function startSurvey() {
