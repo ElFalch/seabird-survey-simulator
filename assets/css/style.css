@@ -1,134 +1,130 @@
 /* google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Press+Start+2P&display=swap");
 
 /* css variables */
 :root {
-    --heading-font: "Press Start 2P", serif;
-    --main-font: "Patrick Hand", serif;
+  --heading-font: "Press Start 2P", serif;
+  --main-font: "Patrick Hand", serif;
 }
 
-/* global styles */ 
+/* global styles */
 
 body {
-    font-family: var(--main-font);
+  font-family: var(--main-font);
 }
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+  font-family: var(--heading-font);
 }
 
 main {
-    background-color: #263b44;
-    color: white;
+  background-color: #263b44;
+  color: white;
 }
- /* form */ 
+/* form */
 
 label {
-    font-family: var(--heading-font);
+  font-family: var(--heading-font);
 }
 
 option {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
-/* hide all elements with this class */ 
+/* hide all elements with this class */
 
 .hidden {
-    display: none;
+  display: none;
 }
 
-/* give all elements with this class 2rem margin */ 
+/* give all elements with this class 2rem margin */
 
 .space {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 /* navbar */
 
 .navbar {
-    background-color: #a5aeb6;
+  background-color: #a5aeb6;
 }
 
 .bird-col {
-    padding-top: 15%;
+  padding-top: 15%;
 }
 
 #start,
 #submit {
-    font-family: var(--heading-font);
-    font-size: xx-large;
+  font-family: var(--heading-font);
+  font-size: xx-large;
 }
 
-/* message with reminder enter values into form */ 
+/* message with reminder enter values into form */
 
 #record-message-port,
 #record-message-star {
-    margin-top: 10%;
-    color: white;
+  margin-top: 10%;
+  color: white;
 }
 
-
-/* divs containing content displayed if answer correct or incorrect */ 
+/* divs containing content displayed if answer correct or incorrect */
 
 #incorrect,
 #correct {
-    display: table;
-    margin: 0 auto;
-
+  display: table;
+  margin: 0 auto;
 }
 
 #correct {
-    width: 30%; 
+  width: 30%;
 }
 
-/* form buttons */ 
+/* form buttons */
 
 #right,
 #next,
 #wrong,
 #reset {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 #wrong {
-    color: red;
+  color: red;
 }
 
-
-/* span containing next button */ 
+/* span containing next button */
 
 #next-container {
-    margin: 5%;
+  margin: 5%;
 }
 
 /* info page */
 
 #info {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 .btn-dark {
-    background-color: black;
+  background-color: black;
 }
 
-/* info cards */ 
+/* info cards */
 
 .card {
-    background-color: #a5aeb6;
-    min-width: 300px;
+  background-color: #a5aeb6;
+  min-width: 300px;
 }
 
 .card-img-top {
-    max-height: 480px;
+  max-height: 480px;
 }
 
 .card-title {
-    font-family: var(--heading-font);
-}
- 
-.card-body {
-    font-size: x-large;
+  font-family: var(--heading-font);
 }
 
+.card-body {
+  font-size: x-large;
+}
