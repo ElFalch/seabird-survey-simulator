@@ -18,13 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/puffin.webp",
       "assets/images/guillemot.webp",
       "assets/images/razorbill.webp",
+      "assets/images/razorbill2.webp",
     ],
-    sppAnswer: ["PU", "GU", "RA"],
-    numAnswer: ["1", "1", "2"],
+    sppAnswer: ["PU", "GU", "RA","RA"],
+    numAnswer: ["1", "1", "2","1"],
     alt: [
       "An Atlantic Puffin sat on the water",
       "A Common Guillemot in Winter plumage sat on the water",
-      "Two razorbills sat on the water",
+      "Two Razorbills sat on the water",
+      "One Razorbill in Winter plumage sat on the water",
     ],
   };
 
