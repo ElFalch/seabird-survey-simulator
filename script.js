@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // hide start button and show first bird image when start button is clicked
 
   function startSurvey() {
-    console.log("Seabird survey started");
     startButton.classList.add("hidden");
     footer.classList.remove("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
@@ -91,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
     clearSea();
     right.classList.add("hidden");
     next.classList.add("hidden");
-    console.log("next survey started");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     if (side[randomSide] === "Port") {
