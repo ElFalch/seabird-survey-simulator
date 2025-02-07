@@ -138,11 +138,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (side[randomSide] === "Port") {
       nextBird = portBird;
       recordMessagePort.classList.remove("hidden");
-      recordMessageStar.classList.add("hidden");
     } else {
       nextBird = starBird;
       recordMessageStar.classList.remove("hidden");
-      recordMessagePort.classList.add("hidden");
     }
     nextBird.src = questions.question[randomBirdIndex];
     nextBird.alt = questions.alt[randomBirdIndex];
@@ -157,11 +155,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (portBird.alt) {
       portBird.src = "";
       portBird.alt = "";
+      recordMessagePort.classList.add("hidden");
     }
 
     if (starBird.alt) {
       starBird.src = "";
       starBird.alt = "";
+      recordMessageStar.classList.add("hidden");
     }
   }
 
