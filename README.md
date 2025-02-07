@@ -6,6 +6,8 @@ Boat.webp: Photo by Josh Sorenson: https://www.pexels.com/photo/bird-s-eye-photo
 
 cormorant.webp: Photo by <a href="https://unsplash.com/@lacarta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Santiago Lacarta</a> on <a href="https://unsplash.com/photos/black-duck-on-water-during-daytime-egn655y_D5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
+european-shag.webp: Photo by Ivan: https://www.pexels.com/photo/close-up-of-a-european-shag-in-the-water-18419539/
+
 guillemot.webp: Photo by <a href="https://unsplash.com/@coombez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Doncoombez</a> on <a href="https://unsplash.com/photos/a-bird-floating-on-top-of-a-body-of-water-tvaZhFq4C9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> 
 
 puffin.webp: Photo by <a href="https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicolas DC</a> on <a href="https://unsplash.com/photos/black-and-white-bird-on-body-of-water-during-daytime-mhfiYqJmXRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
