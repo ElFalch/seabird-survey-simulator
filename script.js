@@ -131,7 +131,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function nextSurvey() {
-    clearSea();
     right.classList.add("hidden");
     next.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
