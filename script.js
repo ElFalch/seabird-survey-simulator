@@ -146,10 +146,14 @@ document.addEventListener("DOMContentLoaded", function () {
     nextBird.alt = questions.alt[randomBirdIndex];
     nextBird.classList.remove("hidden");
     submit.classList.remove("hidden");
-    form.sppCode.value = "0";
-    form.number.value = "0";
-    form.side.value = "0";
   }
+
+  let results = document.getElementById("results");
+
+  function showAnswers(){
+      results.innerText = answers.sppCode;
+      results.classList.remove("hidden");
+    }
 
   function clearSea() {
     if (portBird.alt) {
