@@ -159,10 +159,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let results = document.getElementById("results");
+  nextRound = document.getElementById("next-round");
 
   function showAnswers(){
       results.innerText = answers.sppCode;
       results.classList.remove("hidden");
+      nextRound.classList.remove("hidden");
     }
 
   function clearSea() {
