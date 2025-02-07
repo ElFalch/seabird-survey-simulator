@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sppCode: [],
     number: [],
     sidePS: [],
+    score: [],
   };
 
   function processAnswer(e) {
@@ -99,9 +100,11 @@ document.addEventListener("DOMContentLoaded", function () {
     ) {
       right.classList.remove("hidden");
       next.classList.remove("hidden");
+      answers.score.push("correct")
     } else {
       wrong.classList.remove("hidden");
       reset.classList.remove("hidden");
+      answers.score.push("incorrect")
     }
       answers.sppCode.push(sppCode)
       answers.number.push(number)
