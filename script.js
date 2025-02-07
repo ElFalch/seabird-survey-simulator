@@ -79,6 +79,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const next = document.getElementById("next");
   const reset = document.getElementById("reset");
 
+  const answers = {
+    sppCode: [],
+    number: [],
+    sidePS: [],
+  };
+
   function processAnswer(e) {
     e.preventDefault();
     submit.classList.add("hidden");
@@ -97,7 +103,11 @@ document.addEventListener("DOMContentLoaded", function () {
       wrong.classList.remove("hidden");
       reset.classList.remove("hidden");
     }
+      answers.sppCode.push(sppCode)
+      answers.number.push(number)
+      answers.sidePS.push(sidePS)
   }
+
 
   // reset form and replace bird image/ side when next button is clicked
 
