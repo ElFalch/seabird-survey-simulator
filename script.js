@@ -116,7 +116,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const nextButton = document.getElementById("next");
 
-  nextButton.addEventListener("click", nextSurvey);
+    nextButton.addEventListener("click", whatNext);
+
+  function whatNext() {
+    clearSea();
+    form.sppCode.value = "0";
+    form.number.value = "0";
+    form.side.value = "0";
+    if (answers.sidePS.length <= 5){
+      nextSurvey();
+    } else {
+      showAnswers();
+    }
+  }
 
   function nextSurvey() {
     clearSea();
