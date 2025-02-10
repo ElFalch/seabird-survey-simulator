@@ -158,15 +158,21 @@ document.addEventListener("DOMContentLoaded", function () {
     submit.classList.remove("hidden");
   }
 
-  let results = document.getElementById("results");
+  let correctResults = document.getElementById("correct-results");
+  let incorrectResults = document.getElementById("incorrect-results");
+
   nextRound = document.getElementById("next-round");
 
-  let roundScore = 5; 
+  let correctScore = 0; 
+  let incorrectScore = 0;
 
   function showAnswers(){
       for (let score of answers.score) {
+        if (score === "correct") {
+          correctScore = correctScore + 1;
+        }
         if (score === "incorrect") {
-          roundScore = roundScore - 1;
+          incorrectScore = incorrectScore + 1;
         }
       }
       results.innerText = roundScore;
