@@ -175,8 +175,10 @@ document.addEventListener("DOMContentLoaded", function () {
           incorrectScore = incorrectScore + 1;
         }
       }
-      results.innerText = roundScore;
-      results.classList.remove("hidden");
+      correctResults.innerText = `Correct entries: ${correctScore}`;
+      incorrectResults.innerText = `Incorrect entries: ${incorrectScore}`;
+      correctResults.classList.remove("hidden");
+      incorrectResults.classList.remove("hidden");
       nextRound.classList.remove("hidden");
     }
 
