@@ -161,8 +161,15 @@ document.addEventListener("DOMContentLoaded", function () {
   let results = document.getElementById("results");
   nextRound = document.getElementById("next-round");
 
+  let roundScore = 5; 
+
   function showAnswers(){
-      results.innerText = answers.sppCode;
+      for (let score of answers.score) {
+        if (score === "incorrect") {
+          roundScore = roundScore - 1;
+        }
+      }
+      results.innerText = roundScore;
       results.classList.remove("hidden");
       nextRound.classList.remove("hidden");
     }
