@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
     form.sppCode.value = "0";
     form.number.value = "0";
     form.side.value = "0";
-    if (answers.sidePS.length <= 5){
+    if (answers.sidePS.length <= 4){
       nextSurvey();
     } else {
       showAnswers();
