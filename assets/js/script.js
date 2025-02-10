@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const questions = {
     question: [
-      "assets/images/puffin.webp",
-      "assets/images/guillemot.webp",
-      "assets/images/razorbill.webp",
-      "assets/images/razorbill2.webp",
-      "assets/images/cormorant.webp",
-      "assets/images/european-shag.webp",
-      "assets/images/cormorant2.webp",
+      "assets/images/sitting-birds/puffin.webp",
+      "assets/images/sitting-birds/guillemot.webp",
+      "assets/images/sitting-birds/razorbill.webp",
+      "assets/images/sitting-birds/razorbill2.webp",
+      "assets/images/sitting-birds/cormorant.webp",
+      "assets/images/sitting-birds/european-shag.webp",
+      "assets/images/sitting-birds/cormorant2.webp",
     ],
     sppAnswer: ["PU", "GU", "RA","RA","CA","SA","CA"],
     numAnswer: ["1", "1", "2","1","1","1","1"],
