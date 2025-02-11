@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // store submitted value, assess and log if it is correct or not, then give option for next step.
 
-  const form = document.querySelector("#form");
+  let form = document.querySelector("#form");
 
   form.addEventListener("submit", processAnswer);
 
