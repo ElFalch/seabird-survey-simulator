@@ -100,6 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let formData = e.target;
     let sppCode = formData.sppCode.value;
     let number = formData.number.value;
+    if (questions === sitting){
     let sidePS = formData.side.value;
     if (
       (sppCode === questions.sppAnswer[randomBirdIndex]) &
