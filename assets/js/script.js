@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/sitting-birds/european-shag.webp",
       "assets/images/sitting-birds/cormorant2.webp",
     ],
-    sppAnswer: ["PU", "GU", "RA","RA","CA","SA","CA"],
-    numAnswer: ["1", "1", "2","1","1","1","1"],
+    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA"],
+    numAnswer: ["1", "1", "2", "1", "1", "1", "1"],
     alt: [
       "An Atlantic Puffin sat on the water",
       "A Common Guillemot in Winter plumage sat on the water",
@@ -45,8 +45,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/flying-birds/european-shag2.webp",
       "assets/images/flying-birds/cormorant3.webp",
     ],
-    sppAnswer: ["GX", "GU", "HG","KI","SA","CA"],
-    numAnswer: ["1", "1", "1","1","1","1"],
+    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA"],
+    numAnswer: ["1", "1", "1", "1", "1", "1"],
     alt: [
       "A Northern Gannet flying",
       "A Common Guillemot flying",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function startSurvey() {
     questions = sitting;
     startButton.classList.add("hidden");
-    footer.classList.remove("hidden"); 
+    footer.classList.remove("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     if (side[randomSide] === "Port") {
@@ -111,30 +111,29 @@ document.addEventListener("DOMContentLoaded", function () {
     ) {
       right.classList.remove("hidden");
       next.classList.remove("hidden");
-      answers.score.push("correct")
+      answers.score.push("correct");
     } else {
       wrong.classList.remove("hidden");
       reset.classList.remove("hidden");
-      answers.score.push("incorrect")
+      answers.score.push("incorrect");
     }
-      answers.sppCode.push(sppCode)
-      answers.number.push(number)
-      answers.sidePS.push(sidePS)
+    answers.sppCode.push(sppCode);
+    answers.number.push(number);
+    answers.sidePS.push(sidePS);
   }
-
 
   // reset form and replace bird image/ side when next button is clicked
 
   const nextButton = document.getElementById("next");
 
-    nextButton.addEventListener("click", whatNext);
+  nextButton.addEventListener("click", whatNext);
 
   function whatNext() {
     clearSea();
     form.sppCode.value = "0";
     form.number.value = "0";
     form.side.value = "0";
-    if (answers.sidePS.length <= 4){
+    if (answers.sidePS.length <= 4) {
       nextSurvey();
     } else {
       showAnswers();
@@ -164,38 +163,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const nextRoundButton = document.getElementById("next-round");
 
-  // Next round when next round button clicked 
+  // Next round when next round button clicked
 
-nextRoundButton.addEventListener("click", nextRound);
+  nextRoundButton.addEventListener("click", nextRound);
 
-function nextRound() {
-  if (questions === sitting) {
-    questions = flying;
-  } else {
-    questions = sitting;
+  function nextRound() {
+    if (questions === sitting) {
+      questions = flying;
+    } else {
+      questions = sitting;
+    }
+    correctResults.classList.add("hidden");
+    incorrectResults.classList.add("hidden");
+    nextRoundButton.classList.add("hidden");
+    nextSurvey();
   }
-  nextSurvey();
-}
 
-
-  let correctScore = 0; 
+  let correctScore = 0;
   let incorrectScore = 0;
 
-  function showAnswers(){
-      for (let score of answers.score) {
-        if (score === "correct") {
-          correctScore = correctScore + 1;
-        }
-        if (score === "incorrect") {
-          incorrectScore = incorrectScore + 1;
-        }
+  function showAnswers() {
+    for (let score of answers.score) {
+      if (score === "correct") {
+        correctScore = correctScore + 1;
       }
-      correctResults.innerText = `Correct entries: ${correctScore}`;
-      incorrectResults.innerText = `Incorrect entries: ${incorrectScore}`;
-      correctResults.classList.remove("hidden");
-      incorrectResults.classList.remove("hidden");
-      nextRoundButton.classList.remove("hidden");
+      if (score === "incorrect") {
+        incorrectScore = incorrectScore + 1;
+      }
     }
+    correctResults.innerText = `Correct entries: ${correctScore}`;
+    incorrectResults.innerText = `Incorrect entries: ${incorrectScore}`;
+    correctResults.classList.remove("hidden");
+    incorrectResults.classList.remove("hidden");
+    nextRoundButton.classList.remove("hidden");
+  }
 
   function clearSea() {
     if (portBird.alt) {
