@@ -115,9 +115,20 @@ document.addEventListener("DOMContentLoaded", function () {
       reset.classList.remove("hidden");
       answers.score.push("incorrect");
     }
-    answers.sppCode.push(sppCode);
-    answers.number.push(number);
-    answers.sidePS.push(sidePS);
+  } else {
+    if (
+      (sppCode === questions.sppAnswer[randomBirdIndex]) &
+      (number === questions.numAnswer[randomBirdIndex])
+    ) {
+      right.classList.remove("hidden");
+      next.classList.remove("hidden");
+      answers.score.push("correct");
+    } else {
+      wrong.classList.remove("hidden");
+      reset.classList.remove("hidden");
+      answers.score.push("incorrect");
+    }
+  }
   }
 
   // reset form and replace bird image/ side when next button is clicked
