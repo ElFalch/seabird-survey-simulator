@@ -163,21 +163,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const nextRoundButton = document.getElementById("next-round");
 
-  // Next round when next round button clicked
-
-  nextRoundButton.addEventListener("click", nextRound);
-
-  function nextRound() {
-    if (questions === sitting) {
-      questions = flying;
-    } else {
-      questions = sitting;
-    }
-    correctResults.classList.add("hidden");
-    incorrectResults.classList.add("hidden");
-    nextRoundButton.classList.add("hidden");
-    nextSurvey();
-  }
 
   let correctScore = 0;
   let incorrectScore = 0;
