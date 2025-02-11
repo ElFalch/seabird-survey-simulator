@@ -223,6 +223,9 @@ document.addEventListener("DOMContentLoaded", function () {
     correctResults.classList.add("hidden");
     incorrectResults.classList.add("hidden");
     nextRoundButton.classList.add("hidden");
+    answers.score = [];
+    correctScore = 0;
+    incorrectScore = 0;
     nextSurvey();
   }
 
