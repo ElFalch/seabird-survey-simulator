@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
   nextRoundButton.addEventListener("click", nextRound);
 
   let sppOptions = document.getElementById("spp-code")
-  let sideMenu = document.getElementById("side")
+  let sideCol = document.getElementById("side-col")
 
   function nextRound() {
     if (questions === sitting) {
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <option value="HG">HG</option>
       <option value="KI">KI</option>
       <option value="SA">SA</option>`;
-      sideMenu.classList.add("hidden");
+      sideCol.classList.add("hidden");
     } else {
       questions = sitting;
       sppOptions.innerHTML = `<option selected value="0">Open this select menu</option>
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <option value="PU">PU</option>
                   <option value="RA">RA</option>
                   <option value="SA">SA</option>`;
-      sideMenu.classList.remove("hidden");
+      sidecol.classList.remove("hidden");
     }
     correctResults.classList.add("hidden");
     incorrectResults.classList.add("hidden");
