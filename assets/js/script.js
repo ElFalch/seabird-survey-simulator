@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // correct answer and src for each image
 
-  const questions = {
+  const sitting = {
     question: [
       "assets/images/sitting-birds/puffin.webp",
       "assets/images/sitting-birds/guillemot.webp",
@@ -60,8 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // hide start button and show first bird image when start button is clicked
 
   function startSurvey() {
+    questions = sitting;
     startButton.classList.add("hidden");
-    footer.classList.remove("hidden");
+    footer.classList.remove("hidden"); 
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     if (side[randomSide] === "Port") {
@@ -161,7 +162,21 @@ document.addEventListener("DOMContentLoaded", function () {
   let correctResults = document.getElementById("correct-results");
   let incorrectResults = document.getElementById("incorrect-results");
 
-  nextRound = document.getElementById("next-round");
+  const nextRoundButton = document.getElementById("next-round");
+
+  // Next round when next round button clicked 
+
+nextRoundButton.addEventListener("click", nextRound);
+
+function nextRound() {
+  if (questions === sitting) {
+    questions = flying;
+  } else {
+    questions = sitting;
+  }
+  nextSurvey();
+}
+
 
   let correctScore = 0; 
   let incorrectScore = 0;
@@ -179,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
       incorrectResults.innerText = `Incorrect entries: ${incorrectScore}`;
       correctResults.classList.remove("hidden");
       incorrectResults.classList.remove("hidden");
-      nextRound.classList.remove("hidden");
+      nextRoundButton.classList.remove("hidden");
     }
 
   function clearSea() {
