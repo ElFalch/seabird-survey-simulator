@@ -183,6 +183,41 @@ document.addEventListener("DOMContentLoaded", function () {
     nextRoundButton.classList.remove("hidden");
   }
 
+  // Next round when next round button clicked
+
+  nextRoundButton.addEventListener("click", nextRound);
+
+  let sppOptions = document.getElementById("spp-code")
+  let sideMenu = document.getElementById("side")
+
+  function nextRound() {
+    if (questions === sitting) {
+      questions = flying;
+      sppOptions.innerHTML = `<option selected value="0">Open this select menu</option>
+      <option value="CA">CA</option>
+      <option value="GU">GU</option>
+      <option value="GX">GX</option>
+      <option value="HG">HG</option>
+      <option value="KI">KI</option>
+      <option value="SA">SA</option>`;
+      sideMenu.classList.add("hidden");
+    } else {
+      questions = sitting;
+      sppOptions.innerHTML = `<option selected value="0">Open this select menu</option>
+                  <option value="CA">CA</option>
+                  <option value="GU">GU</option>
+                  <option value="PU">PU</option>
+                  <option value="RA">RA</option>
+                  <option value="SA">SA</option>`;
+      sideMenu.classList.remove("hidden");
+    }
+    correctResults.classList.add("hidden");
+    incorrectResults.classList.add("hidden");
+    nextRoundButton.classList.add("hidden");
+    nextSurvey();
+  }
+
+
   function clearSea() {
     if (portBird.alt) {
       portBird.src = "";
