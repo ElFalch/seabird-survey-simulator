@@ -91,9 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const reset = document.getElementById("reset");
 
   const answers = {
-    sppCode: [],
-    number: [],
-    sidePS: [],
     score: [],
   };
 
