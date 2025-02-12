@@ -170,6 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let correctResults = document.getElementById("correct-results");
   let incorrectResults = document.getElementById("incorrect-results");
 
+  const end = document.getElementById("end");
   const nextRoundButton = document.getElementById("next-round");
 
 
@@ -190,6 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
     correctResults.classList.remove("hidden");
     incorrectResults.classList.remove("hidden");
     nextRoundButton.classList.remove("hidden");
+    end.classList.remove("hidden");
   }
 
   // Next round when next round button clicked
@@ -223,6 +225,7 @@ document.addEventListener("DOMContentLoaded", function () {
     correctResults.classList.add("hidden");
     incorrectResults.classList.add("hidden");
     nextRoundButton.classList.add("hidden");
+    end.classList.add("hidden");
     answers.score = [];
     correctScore = 0;
     incorrectScore = 0;
