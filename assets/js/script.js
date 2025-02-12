@@ -186,6 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
         incorrectScore = incorrectScore + 1;
       }
     }
+    footer.classList.add("hidden");
     correctResults.innerText = `Correct entries: ${correctScore}`;
     incorrectResults.innerText = `Incorrect entries: ${incorrectScore}`;
     correctResults.classList.remove("hidden");
@@ -222,6 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <option value="SA">SA</option>`;
       sidecol.classList.remove("hidden");
     }
+    footer.classList.remove("hidden");
     correctResults.classList.add("hidden");
     incorrectResults.classList.add("hidden");
     nextRoundButton.classList.add("hidden");
