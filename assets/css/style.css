@@ -56,7 +56,8 @@ option {
 }
 
 #start,
-#submit {
+#submit,
+#get-started {
   font-family: var(--heading-font);
   font-size: xx-large;
 }
