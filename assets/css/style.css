@@ -57,7 +57,8 @@ option {
 
 #start,
 #submit,
-#get-started {
+#get-started,
+#next-round {
   font-family: var(--heading-font);
   font-size: xx-large;
 }
