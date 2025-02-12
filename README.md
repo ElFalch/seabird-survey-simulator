@@ -3,6 +3,7 @@ Attributions
 Images
 
 Boat.webp: Photo by Josh Sorenson: https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/
+observer.webp: Photo by Tolga Ahmetler: https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/
 
 Sitting Birds
 
