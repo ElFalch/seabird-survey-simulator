@@ -14,7 +14,7 @@ european-shag.webp: Photo by Ivan: https://www.pexels.com/photo/close-up-of-a-eu
 
 guillemot.webp: Photo by <a href="https://unsplash.com/@coombez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Doncoombez</a> on <a href="https://unsplash.com/photos/a-bird-floating-on-top-of-a-body-of-water-tvaZhFq4C9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> 
 
-puffin.webp: Photo by <a href="https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicolas DC</a> on <a href="https://unsplash.com/photos/black-and-white-bird-on-body-of-water-during-daytime-mhfiYqJmXRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+puffin.webp: Photo by <a href="https://unsplash.com/@markolsen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark Olsen</a> on <a href="https://unsplash.com/photos/black-and-white-bird-on-water-during-daytime-PCGC-9qW3o4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 razorbill.webp: Photo by <a href="https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicolas DC</a> on <a href="https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
