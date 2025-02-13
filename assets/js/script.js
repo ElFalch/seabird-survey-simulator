@@ -213,7 +213,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <option value="GX">GX</option>
       <option value="HG">HG</option>
       <option value="KI">KI</option>
-      <option value="SA">SA</option>`;
+      <option value="SA">SA</option>
+      <option value="PU">PU</option>`;
       sideCol.classList.add("hidden");
     } else {
       questions = sitting;
