@@ -35,3 +35,5 @@ herring-gull.webp: Image by <a href="https://pixabay.com/users/mike_68-10359383/
 
 kittiwake.webp: Photo by Fiona Trewartha: https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/
 
+puffin2.webp: Photo by <a href="https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Jamieson Moulton</a> on <a href="https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
