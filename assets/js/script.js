@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <option value="PU">PU</option>
                   <option value="RA">RA</option>
                   <option value="SA">SA</option>`;
-      sidecol.classList.remove("hidden");
+      sideCol.classList.remove("hidden");
     }
     footer.classList.remove("hidden");
     correctResults.classList.add("hidden");
