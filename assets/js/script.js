@@ -106,45 +106,45 @@ document.addEventListener("DOMContentLoaded", function () {
     let sppCode = formData.sppCode.value;
     let number = formData.number.value;
     if (questions === sitting) {
-    let sidePS = formData.side.value;
-    if (
-      (sppCode === questions.sppAnswer[randomBirdIndex]) &
-      (number === questions.numAnswer[randomBirdIndex]) &
-      (sidePS === side[randomSide])
-    ) {
-      right.classList.remove("hidden");
-      next.classList.remove("hidden");
-      answers.score.push("correct");
-    } else {
-      wrong.classList.remove("hidden");
-      reset.classList.remove("hidden");
+      let sidePS = formData.side.value;
+      if (
+        (sppCode === questions.sppAnswer[randomBirdIndex]) &
+        (number === questions.numAnswer[randomBirdIndex]) &
+        (sidePS === side[randomSide])
+      ) {
+        right.classList.remove("hidden");
+        next.classList.remove("hidden");
+        answers.score.push("correct");
+      } else {
+        wrong.classList.remove("hidden");
+        reset.classList.remove("hidden");
 
         numSelect.setAttribute("disabled", "");
         sideSelect.setAttribute("disabled", "");
         sppSelect.setAttribute("disabled", "");
 
-      answers.score.push("incorrect");
-    }
-  } else {
-    if (
-      (sppCode === questions.sppAnswer[randomBirdIndex]) &
-      (number === questions.numAnswer[randomBirdIndex])
-    ) {
-      right.classList.remove("hidden");
-      next.classList.remove("hidden");
-      answers.score.push("correct");
+        answers.score.push("incorrect");
+      }
     } else {
+      if (
+        (sppCode === questions.sppAnswer[randomBirdIndex]) &
+        (number === questions.numAnswer[randomBirdIndex])
+      ) {
+        right.classList.remove("hidden");
+        next.classList.remove("hidden");
+        answers.score.push("correct");
+      } else {
 
-      wrong.classList.remove("hidden");
-      reset.classList.remove("hidden");
+        wrong.classList.remove("hidden");
+        reset.classList.remove("hidden");
 
         numSelect.setAttribute("disabled", "");
         sideSelect.setAttribute("disabled", "");
         sppSelect.setAttribute("disabled", "");
 
-      answers.score.push("incorrect");
+        answers.score.push("incorrect");
+      }
     }
-  }
   }
 
   // reset form and replace bird image/ side when next button is clicked
@@ -189,7 +189,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const end = document.getElementById("end");
   const nextRoundButton = document.getElementById("next-round");
 
-
   let correctScore = 0;
   let incorrectScore = 0;
 
@@ -215,8 +214,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nextRoundButton.addEventListener("click", nextRound);
 
-  let sppOptions = document.getElementById("spp-code")
-  const sideCol = document.getElementById("side-col")
+  let sppOptions = document.getElementById("spp-code");
+  const sideCol = document.getElementById("side-col");
 
   function nextRound() {
     if (questions === sitting) {
@@ -250,7 +249,6 @@ document.addEventListener("DOMContentLoaded", function () {
     incorrectScore = 0;
     nextSurvey();
   }
-
 
   function clearSea() {
     if (portBird.alt) {
