@@ -214,13 +214,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nextRoundButton.addEventListener("click", nextRound);
 
-  let sppOptions = document.getElementById("spp-code");
   const sideCol = document.getElementById("side-col");
 
   function nextRound() {
     if (questions === sitting) {
       questions = flying;
-      sppOptions.innerHTML = `<option selected value="0">Open this select menu</option>
+      sppSelect.innerHTML = `<option selected value="0">Open this select menu</option>
       <option value="CA">CA</option>
       <option value="GU">GU</option>
       <option value="GX">GX</option>
@@ -231,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function () {
       sideCol.classList.add("hidden");
     } else {
       questions = sitting;
-      sppOptions.innerHTML = `<option selected value="0">Open this select menu</option>
+      sppSelect.innerHTML = `<option selected value="0">Open this select menu</option>
                   <option value="CA">CA</option>
                   <option value="GU">GU</option>
                   <option value="PU">PU</option>
