@@ -91,6 +91,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const wrong = document.getElementById("wrong");
   const next = document.getElementById("next");
   const reset = document.getElementById("reset");
+  const numSelect = document.getElementById("number");
+  const sppSelect = document.getElementById("spp-code");
+  const sideSelect = document.getElementById("side");
 
   const answers = {
     score: [],
@@ -102,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let formData = e.target;
     let sppCode = formData.sppCode.value;
     let number = formData.number.value;
-    if (questions === sitting){
+    if (questions === sitting) {
     let sidePS = formData.side.value;
     if (
       (sppCode === questions.sppAnswer[randomBirdIndex]) &
@@ -115,6 +118,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       wrong.classList.remove("hidden");
       reset.classList.remove("hidden");
+
+        numSelect.setAttribute("disabled", "");
+        sideSelect.setAttribute("disabled", "");
+        sppSelect.setAttribute("disabled", "");
+
       answers.score.push("incorrect");
     }
   } else {
@@ -126,8 +134,14 @@ document.addEventListener("DOMContentLoaded", function () {
       next.classList.remove("hidden");
       answers.score.push("correct");
     } else {
+
       wrong.classList.remove("hidden");
       reset.classList.remove("hidden");
+
+        numSelect.setAttribute("disabled", "");
+        sideSelect.setAttribute("disabled", "");
+        sppSelect.setAttribute("disabled", "");
+
       answers.score.push("incorrect");
     }
   }
