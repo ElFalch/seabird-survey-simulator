@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/flying-birds/cormorant3.webp",
       "assets/images/flying-birds/puffin2.webp",
     ],
-    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA","PU"],
-    numAnswer: ["1", "1", "1", "1", "1", "1","2"],
+    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA", "PU"],
+    numAnswer: ["1", "1", "1", "1", "1", "1", "2"],
     alt: [
       "A Northern Gannet flying",
       "A Common Guillemot flying",
