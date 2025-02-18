@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
   nextRoundButton.addEventListener("click", nextRound);
 
   let sppOptions = document.getElementById("spp-code")
-  let sideCol = document.getElementById("side-col")
+  const sideCol = document.getElementById("side-col")
 
   function nextRound() {
     if (questions === sitting) {
