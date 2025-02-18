@@ -1,5 +1,14 @@
 Attributions
 
+Code
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
+
+https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
+
+
 Images
 
 boat.webp: Photo by Josh Sorenson: https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/
