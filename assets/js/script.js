@@ -268,6 +268,12 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("reset", tryAgain);
 
   function tryAgain(e) {
+
+    
+    numSelect.removeAttribute("disabled");
+    sideSelect.removeAttribute("disabled");
+    sppSelect.removeAttribute("disabled");
+
     wrong.classList.add("hidden");
     reset.classList.add("hidden");
     submit.classList.remove("hidden");
