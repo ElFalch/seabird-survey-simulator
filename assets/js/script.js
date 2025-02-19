@@ -68,14 +68,14 @@ document.addEventListener("DOMContentLoaded", function () {
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     try {
-    if (side[randomSide] === "Port") {
-      firstBird = portBird;
-      recordMessagePort.classList.remove("hidden");
-      recordMessageStar.classList.add("hidden");
-    } else {
-      firstBird = starBird;
-      recordMessageStar.classList.remove("hidden");
-      recordMessagePort.classList.add("hidden");
+      if (side[randomSide] === "Port") {
+        firstBird = portBird;
+        recordMessagePort.classList.remove("hidden");
+        recordMessageStar.classList.add("hidden");
+      } else {
+        firstBird = starBird;
+        recordMessageStar.classList.remove("hidden");
+        recordMessagePort.classList.add("hidden");
       }
     } catch (err) {
       firstBird.src = "Error: " + err + ".";
@@ -139,7 +139,6 @@ document.addEventListener("DOMContentLoaded", function () {
         next.classList.remove("hidden");
         answers.score.push("correct");
       } else {
-
         wrong.classList.remove("hidden");
         reset.classList.remove("hidden");
 
@@ -176,12 +175,12 @@ document.addEventListener("DOMContentLoaded", function () {
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
     try {
-    if (side[randomSide] === "Port") {
-      nextBird = portBird;
-      recordMessagePort.classList.remove("hidden");
-    } else {
-      nextBird = starBird;
-      recordMessageStar.classList.remove("hidden");
+      if (side[randomSide] === "Port") {
+        nextBird = portBird;
+        recordMessagePort.classList.remove("hidden");
+      } else {
+        nextBird = starBird;
+        recordMessageStar.classList.remove("hidden");
       }
     } catch (err) {
       nextBird.src = "Error: " + err + ".";
@@ -205,14 +204,14 @@ document.addEventListener("DOMContentLoaded", function () {
   function showAnswers() {
     for (let score of answers.score) {
       try {
-      if (score === "correct") {
-        correctScore = correctScore + 1;
+        if (score === "correct") {
+          correctScore = correctScore + 1;
         }
       } catch (err) {
         correctScore = "Error: " + err + ".";
       }
       try {
-      if (score === "incorrect") {
+        if (score === "incorrect") {
           incorrectScore = incorrectScore + 1;
         }
       } catch (err) {
@@ -289,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
   catch(err){
     starBird.src = "Error: " + err + ".";
     starBird.alt = "Error: " + err + ".";
-    }
+  }
   }
 
   // reset form when try again button is clicked
@@ -297,8 +296,6 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("reset", tryAgain);
 
   function tryAgain(e) {
-
-    
     numSelect.removeAttribute("disabled");
     sideSelect.removeAttribute("disabled");
     sppSelect.removeAttribute("disabled");
