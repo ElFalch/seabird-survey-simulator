@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const side = ["Port", "Star"];
 
-  // correct answer and src for each image
+  // correct answers, src and alt text for each sitting bird image
 
   const sitting = {
     question: [
@@ -35,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "A Great Cormorant sat on the water",
     ],
   };
+
+  // correct answers, src and alt text for each flying bird image
 
   const flying = {
     question: [
