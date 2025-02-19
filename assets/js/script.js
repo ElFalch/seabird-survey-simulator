@@ -204,11 +204,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function showAnswers() {
     for (let score of answers.score) {
+      try {
       if (score === "correct") {
         correctScore = correctScore + 1;
+        }
+      } catch (err) {
+        correctScore = "Error: " + err + ".";
       }
+      try {
       if (score === "incorrect") {
-        incorrectScore = incorrectScore + 1;
+          incorrectScore = incorrectScore + 1;
+        }
+      } catch (err) {
+        incorrectScore = "Error: " + err + ".";
       }
     }
     footer.classList.add("hidden");
