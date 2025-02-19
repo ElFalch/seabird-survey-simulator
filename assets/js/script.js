@@ -175,12 +175,17 @@ document.addEventListener("DOMContentLoaded", function () {
     next.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
+    try {
     if (side[randomSide] === "Port") {
       nextBird = portBird;
       recordMessagePort.classList.remove("hidden");
     } else {
       nextBird = starBird;
       recordMessageStar.classList.remove("hidden");
+      }
+    } catch (err) {
+      nextBird.src = "Error: " + err + ".";
+      nextBird.alt = "Error: " + err + ".";
     }
     nextBird.src = questions.question[randomBirdIndex];
     nextBird.alt = questions.alt[randomBirdIndex];
