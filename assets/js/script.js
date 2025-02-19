@@ -268,16 +268,27 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function clearSea() {
+    try{
     if (portBird.alt) {
       portBird.src = "";
       portBird.alt = "";
       recordMessagePort.classList.add("hidden");
     }
-
+  }
+  catch(err){
+    portBird.src = "Error: " + err + ".";
+    portBird.alt = "Error: " + err + ".";
+  }
+  try{
     if (starBird.alt) {
       starBird.src = "";
       starBird.alt = "";
       recordMessageStar.classList.add("hidden");
+    }
+  }
+  catch(err){
+    starBird.src = "Error: " + err + ".";
+    starBird.alt = "Error: " + err + ".";
     }
   }
 
