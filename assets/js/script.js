@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     footer.classList.remove("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
+    try {
     if (side[randomSide] === "Port") {
       firstBird = portBird;
       recordMessagePort.classList.remove("hidden");
@@ -75,6 +76,10 @@ document.addEventListener("DOMContentLoaded", function () {
       firstBird = starBird;
       recordMessageStar.classList.remove("hidden");
       recordMessagePort.classList.add("hidden");
+      }
+    } catch (err) {
+      firstBird.src = "Error: " + err + ".";
+      firstBird.alt = "Error: " + err + ".";
     }
     firstBird.src = questions.question[randomBirdIndex];
     firstBird.alt = questions.alt[randomBirdIndex];
