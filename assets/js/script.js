@@ -67,8 +67,21 @@ document.addEventListener("DOMContentLoaded", function () {
     questions = sitting;
     startButton.classList.add("hidden");
     footer.classList.remove("hidden");
+    /**
+     * @generator
+     * @yields {number} randomBirdIndex
+     */
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
+    /**
+     * @generator
+     * @yields {number} randomSide
+     */
     randomSide = Math.floor(Math.random() * side.length);
+    /**
+     * @lends side[randomSide]
+     * @constructor
+     * @returns {object} firstBird
+     */
     try {
       if (side[randomSide] === "Port") {
         firstBird = portBird;
@@ -83,7 +96,17 @@ document.addEventListener("DOMContentLoaded", function () {
       firstBird.src = "Error: " + err + ".";
       firstBird.alt = "Error: " + err + ".";
     }
+        /**
+     * @lends questions.question[randomBirdIndex]
+     * @constructor 
+     * @returns {string} firstBird.src
+     */
     firstBird.src = questions.question[randomBirdIndex];
+    /**
+     * @lends questions.alt[randomBirdIndex]
+     * @constructor 
+     * @returns {string} firstBird.alt
+     */
     firstBird.alt = questions.alt[randomBirdIndex];
     firstBird.classList.remove("hidden");
   }
