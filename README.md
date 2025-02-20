@@ -79,17 +79,17 @@ razorbill2.webp: Photo by [Anastasiya Dragun]("https://unsplash.com/@sunny_kote?
 
 ### Flying Birds
 
-cormorant3.webp: Photo by Odd Rune Falch: https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/
+cormorant3.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
 
-European-shag2.webp: Photo by Odd Rune Falch: https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/
+European-shag2.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
 
-gannet.webp: Photo by Wolfgang Wendefeuer: https://www.pexels.com/photo/a-flying-northern-gannet-12827110/
+gannet.webp: Photo by [Wolfgang Wendefeuer](https://www.pexels.com/photo/a-flying-northern-gannet-12827110/)
 
-guillemot2.webp: Image by <a href="https://pixabay.com/users/dannymoore1973-1813225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282">danny moore</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282">Pixabay</a>
+guillemot2.webp: Image by [danny moore]("https://pixabay.com/users/dannymoore1973-1813225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282") from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282")
 
-herring-gull.webp: Image by <a href="https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143">Michael Kleinsasser</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143">Pixabay</a>
+herring-gull.webp: Image by [Michael Kleinsasser]"https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143"> from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143")
 
-kittiwake.webp: Photo by Fiona Trewartha: https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/
+kittiwake.webp: Photo by [Fiona Trewartha](https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/)
 
-puffin2.webp: Photo by <a href="https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Jamieson Moulton</a> on <a href="https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+puffin2.webp: Photo by [Tyler Jamieson Moulton]"https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" on [Unsplash]("https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash")
       
