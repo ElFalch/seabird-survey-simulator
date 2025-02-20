@@ -55,10 +55,13 @@ https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-c
 
 ## Images
 
-boat.webp: Photo by Josh Sorenson: https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/
-observer.webp: Photo by Tolga Ahmetler: https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/
+boat.webp: [Photo by Josh Sorenson](https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/)
 
-Sitting Birds
+observer.webp: [Photo by Tolga Ahmetler](https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/)
+
+seabirds.webp: Photo by [Nicolas DC]("https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>)
+
+### Sitting Birds
 
 cormorant.webp: Photo by <a href="https://unsplash.com/@lacarta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Santiago Lacarta</a> on <a href="https://unsplash.com/photos/black-duck-on-water-during-daytime-egn655y_D5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
