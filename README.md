@@ -1,10 +1,22 @@
-UX 
+# UX 
 
-User Stories
+## Goals
 
-Github projects board containing user stories here: https://github.com/users/ElFalch/projects/3/views/1
+### Target Audience 
 
-Attributions
+- Seabird enthusiasts looking to improve their ID skills. 
+
+- Those looking to join seabird surveys want to learn survey methodology.
+
+
+### User Stories
+
+User stories can be found [here](https://github.com/users/ElFalch/projects/3/views/1).
+
+- These user stories include some future ideas (labelled as "wont-have"). 
+
+
+# Attributions
 
 Code
 
