@@ -44,7 +44,7 @@ Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library.
 
 # Attributions
 
-Code
+## Code
 
 https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
 
