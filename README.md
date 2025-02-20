@@ -8,12 +8,38 @@
 
 - Those looking to join seabird surveys want to learn survey methodology.
 
-
 ### User Stories
 
 User stories can be found [here](https://github.com/users/ElFalch/projects/3/views/1).
 
 - These user stories include some future ideas (labelled as "wont-have"). 
+
+
+## Visual Design 
+
+### Colours
+
+![Seabird Survey Simulator colour palette](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/colour-palette/seabird-survey-simulator.png "Seabird Survey Simulator colour palette")
+
+Colours used reflect those in the image of the boat, creating an immersive gaming experience. Black, white and bright blue were also used to make buttons and text stand out, making the website easier to use whilst being complimentary with the main colour scheme. 
+
+Green and red were used for the correct and incorrect messages shown after form submission. These colours have a high contrast with the others used in this project, making the game more user friendly, but do not feature in the main colour palette as they are only shown between questions/ rounds. 
+
+### Fonts 
+
+- The heading font was chosen for it's retro-futuristic yet clear style, giving users the feeling that they are playing a vintage video game whilst being easy to read. 
+
+- The main font was chosen for its hand-written look, adding to the feeling of experiencing a real survey where data is recorded using paper and pencil. This font also has a and neat appearance and is easy to read even at small sizes, increasing the likelihood that users will understand the material provided. 
+
+### Icons 
+
+Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library. 
+
+- A book icon was used for the index page navbar link, to reflect that this page contains information, making it easier for users to find everything they need to play the game. 
+
+- A boat icon was used for the game page navbar link, to demonstrate that this is where the game is, as the simulated survey takes place on a boat. 
+
+- A pencil icon was used at the beginning of the message telling users to record what they see in the form below, hilighting that this action is needed to progress in the game. 
 
 
 # Attributions
