@@ -111,11 +111,14 @@ document.addEventListener("DOMContentLoaded", function () {
     firstBird.classList.remove("hidden");
   }
 
-  // store submitted value, assess and log if it is correct or not, then give option for next step.
+ 
+  // Define form and add event listener for submission that calls processAnswer function
 
   let form = document.querySelector("#form");
 
   form.addEventListener("submit", processAnswer);
+
+  // Define form buttons, messages and dropdowns
 
   const right = document.getElementById("right");
   const wrong = document.getElementById("wrong");
@@ -125,9 +128,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const sppSelect = document.getElementById("spp-code");
   const sideSelect = document.getElementById("side");
 
+  // Create blank array where the score for each attempt will be stored 
+
   const answers = {
     score: [],
   };
+
+  // store submitted value, assess and log if it is correct or not, then give option for next step.
 
   function processAnswer(e) {
     e.preventDefault();
@@ -176,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // reset form and replace bird image/ side when next button is clicked
+  // reset form, call clearSea function and either call next Survey or showanswers function when next button is clicked
 
   const nextButton = document.getElementById("next");
 
@@ -193,6 +200,8 @@ document.addEventListener("DOMContentLoaded", function () {
       showAnswers();
     }
   }
+
+  // reset page and show next bird image in round 
 
   function nextSurvey() {
     right.classList.add("hidden");
@@ -217,14 +226,25 @@ document.addEventListener("DOMContentLoaded", function () {
     submit.classList.remove("hidden");
   }
 
+  // define correct and incorrect results messages 
+
   let correctResults = document.getElementById("correct-results");
   let incorrectResults = document.getElementById("incorrect-results");
 
+  // define end of round message 
+
   const end = document.getElementById("end");
+
+  //define next round button
+
   const nextRoundButton = document.getElementById("next-round");
+
+  // create empty strings for cumulative correct and incorrect scores for each round 
 
   let correctScore = 0;
   let incorrectScore = 0;
+
+  // calculate and show cumulative correct and incorrect scores for each round aswell as end of round message. 
 
   function showAnswers() {
     for (let score of answers.score) {
@@ -252,11 +272,15 @@ document.addEventListener("DOMContentLoaded", function () {
     end.classList.remove("hidden");
   }
 
-  // Next round when next round button clicked
+  // define the column that contains the boat side dropdown menu
+
+    const sideCol = document.getElementById("side-col");
+
+  // Event listener that calls nextRound function when next round button is clicked
 
   nextRoundButton.addEventListener("click", nextRound);
 
-  const sideCol = document.getElementById("side-col");
+  // start next round, change the BTO code dropdown menu options and reveal/ hide the boat side dropdown depending on which round is being played 
 
   function nextRound() {
     if (questions === sitting) {
@@ -290,6 +314,8 @@ document.addEventListener("DOMContentLoaded", function () {
     incorrectScore = 0;
     nextSurvey();
   }
+
+  // clear existing bird images from screen
 
   function clearSea() {
     try {
