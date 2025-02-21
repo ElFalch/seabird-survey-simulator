@@ -46,6 +46,8 @@ Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library.
 
 ## Code
 
+General game layout and JS taken from: https://www.youtube.com/watch?v=riDzcEQbX6k
+
 https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
 
 https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
