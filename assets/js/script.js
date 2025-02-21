@@ -185,9 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // reset form, call clearSea function and either call next Survey or showanswers function when next button is clicked
 
-  const nextButton = document.getElementById("next");
-
-  nextButton.addEventListener("click", whatNext);
+  next.addEventListener("click", whatNext);
 
   function whatNext() {
     clearSea();
