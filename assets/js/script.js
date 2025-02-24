@@ -262,8 +262,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
     footer.classList.add("hidden");
-    correctResults.innerText = `Correct entries: ${correctScore}`;
-    incorrectResults.innerText = `Incorrect entries: ${incorrectScore}`;
+    correctResults.innerText = `Correct rows: ${correctScore}`;
+    incorrectResults.innerText = `Incorrect rows: ${incorrectScore}`;
     correctResults.classList.remove("hidden");
     incorrectResults.classList.remove("hidden");
     nextRoundButton.classList.remove("hidden");
