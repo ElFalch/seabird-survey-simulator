@@ -1,3 +1,7 @@
+# Seabird Survey Simulator
+
+The purpose of this website is to provide training for those looking to improve their seabird survey skills and point users in the direction of relevant learning resources. 
+
 # UX 
 
 ## Goals
