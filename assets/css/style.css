@@ -45,8 +45,9 @@ option {
   margin: 2rem;
 }
 
-.space-top {
+.space-top-bottom {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* navbar */
