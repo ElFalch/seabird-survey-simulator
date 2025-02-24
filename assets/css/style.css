@@ -121,10 +121,13 @@ option {
 .card {
   background-color: #a5aeb6;
   min-width: 300px;
+  max-width: 325px;
+  max-height: 570px;
 }
 
 .card-img-top {
-  max-height: 480px;
+  max-height: 406px;
+  max-width: 325px;
 }
 
 .card-title {
