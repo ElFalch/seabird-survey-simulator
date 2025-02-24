@@ -283,7 +283,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function nextRound() {
     if (questions === sitting) {
       questions = flying;
-      sppSelect.innerHTML = `<option selected value="0">Open this select menu</option>
+      sppSelect.innerHTML = `<option selected value="0">Select BTO code</option>
       <option value="CA">CA</option>
       <option value="GU">GU</option>
       <option value="GX">GX</option>
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
       sideCol.classList.add("hidden");
     } else {
       questions = sitting;
-      sppSelect.innerHTML = `<option selected value="0">Open this select menu</option>
+      sppSelect.innerHTML = `<option selected value="0">Select BTO code</option>
                   <option value="CA">CA</option>
                   <option value="GU">GU</option>
                   <option value="PU">PU</option>
