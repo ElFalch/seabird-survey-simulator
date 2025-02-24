@@ -140,6 +140,8 @@ option {
 }
 
 
+/* Media Queries */
+
 /* Force landscape mode for mobiles - taken from stack overflow: https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode#:~:text=Or%20by%20binding%20a%20JavaScript,in%20portrait%20mode%20*%2F%20%7D%20%7D)%3B */ 
 
 @media screen and (orientation:portrait) {
