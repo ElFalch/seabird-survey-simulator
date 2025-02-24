@@ -57,9 +57,9 @@ https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-c
 
 ## Images
 
-boat.webp: [Photo by Josh Sorenson](https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/)
+boat.webp: [Photo by Josh Sorenson]("https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/")
 
-observer.webp: [Photo by Tolga Ahmetler](https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/)
+observer.webp: [Photo by Tolga Ahmetler]("https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/")
 
 seabirds.webp: Photo by [Nicolas DC]("https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>)
 
@@ -69,7 +69,7 @@ cormorant.webp: Photo by [Santiago Lacarta]("https://unsplash.com/@lacarta?utm_c
 
 cormorant2.webp: Image by [Thanasis Papazacharias]("https://pixabay.com/users/papazachariasa-12696704/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6142893") from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6142893")
 
-european-shag.webp: [Photo by Ivan](https://www.pexels.com/photo/close-up-of-a-european-shag-in-the-water-18419539/)
+european-shag.webp: [Photo by Ivan]("https://www.pexels.com/photo/close-up-of-a-european-shag-in-the-water-18419539/")
 
 guillemot.webp: Photo by [Doncoombez]("https://unsplash.com/@coombez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/a-bird-floating-on-top-of-a-body-of-water-tvaZhFq4C9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") 
 
@@ -81,17 +81,17 @@ razorbill2.webp: Photo by [Anastasiya Dragun]("https://unsplash.com/@sunny_kote?
 
 ### Flying Birds
 
-cormorant3.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
+cormorant3.webp: Photo by [Odd Rune Falch]("https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/")
 
-European-shag2.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
+European-shag2.webp: Photo by [Odd Rune Falch]("https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/")
 
-gannet.webp: Photo by [Wolfgang Wendefeuer](https://www.pexels.com/photo/a-flying-northern-gannet-12827110/)
+gannet.webp: Photo by [Wolfgang Wendefeuer]("https://www.pexels.com/photo/a-flying-northern-gannet-12827110/")
 
 guillemot2.webp: Image by [danny moore]("https://pixabay.com/users/dannymoore1973-1813225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282") from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282")
 
-herring-gull.webp: Image by [Michael Kleinsasser]"https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143"> from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143")
+herring-gull.webp: Image by [Michael Kleinsasser]("https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143") from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143")
 
-kittiwake.webp: Photo by [Fiona Trewartha](https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/)
+kittiwake.webp: Photo by [Fiona Trewartha]("https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/")
 
-puffin2.webp: Photo by [Tyler Jamieson Moulton]"https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" on [Unsplash]("https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash")
+puffin2.webp: Photo by [Tyler Jamieson Moulton]("https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash")
       
