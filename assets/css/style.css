@@ -42,7 +42,7 @@ option {
 /* give all elements with this class 2rem margin */
 
 .space {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .space-top-bottom {
