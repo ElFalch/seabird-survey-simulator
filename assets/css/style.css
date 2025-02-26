@@ -146,9 +146,9 @@ option {
 
 /* Media Queries */
 
-/* Small devices (landscape phones, less than 920px) */
+/* Small devices (landscape phones, less than 950px) */
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 950px) {
 
 #start,
 #submit,
