@@ -88,10 +88,6 @@ option {
   margin: 0 auto;
 }
 
-#correct {
-  width: 30%;
-}
-
 /* form buttons */
 
 #right,
@@ -105,11 +101,6 @@ option {
   color: red;
 }
 
-/* span containing next button */
-
-#next-container {
-  margin: 5%;
-}
 
 /* info page */
 
