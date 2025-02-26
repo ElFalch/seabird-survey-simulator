@@ -58,6 +58,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
 
 https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
 
+https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
 
 ## Images
 
