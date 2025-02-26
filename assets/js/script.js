@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const next = document.getElementById("next");
   const reset = document.getElementById("reset");
   const numSelect = document.getElementById("number");
-  const sppSelect = document.getElementById("spp-code");
+  const sppSelect = document.getElementById("sppCode");
   const sideSelect = document.getElementById("side");
 
   // Create blank array where the score for each attempt will be stored 
