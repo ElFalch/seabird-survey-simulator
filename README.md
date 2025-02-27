@@ -67,7 +67,7 @@ Index page:
 
 ## All Pages 
 
-Navbar: The navbar provides links to the index and game pages of the site and has the Seabird Survey Simulator logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller decies.
+Navbar: The Bootstrap navbar contains links to the index and game pages of the site and has the Seabird Survey Simulator logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller decies.
 
 ## Home Page
 
