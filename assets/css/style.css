@@ -120,6 +120,9 @@ option {
   max-height: 570px;
 }
 
+
+/* object-fit: cover; taken from: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio */
+
 .card-img-top {
   height: 350px;
   width: 324px;
