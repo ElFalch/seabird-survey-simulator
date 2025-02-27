@@ -135,6 +135,7 @@ option {
 
 .card-title {
   font-family: var(--heading-font);
+  font-size: x-large;
 }
 
 .card-body {
