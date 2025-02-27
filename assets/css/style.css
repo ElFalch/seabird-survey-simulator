@@ -60,6 +60,10 @@ option {
   background-color: #a5aeb6;
 }
 
+.nav-link {
+  font-size: xx-large;
+}
+
 .bird-col {
   padding-top: 8%;
 }
