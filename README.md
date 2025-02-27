@@ -83,6 +83,29 @@ Main: Contains three Bootstrap columns, the middle of which is filled with an im
 
 Footer: Contains a form for entering answers, which appears when users press the start button. Messages and buttons appear periodically as users interact with the game. 
 
+# Testing
+
+## Validation 
+
+### HTML Validation
+
+The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). No errors or warnings were found for any of the pages. 
+
+| Page          | Result                                                                                                                                                |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page HTML validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/html-validation/) | 
+| game.html  |![Game Page HTML validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/html-validation/)  |
+
+### CSS Validation
+
+The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+| Summary         | Result                                                                                                                                                |   
+| --------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| No errors found |![Seabird Survey Simulator CSS validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/css-validation/)   | 
+| Warnings are the result of Google fonts and css prefixes being used and do not present any issues |![](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/css-validation/)|
+
+
 # Attributions
 
 ## Code
