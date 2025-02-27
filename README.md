@@ -62,6 +62,27 @@ Index page:
 
 - The same boat image used in the game is used for the boat side card, reminding users of this aspect of the game and to follow the link provided if they ened more information. 
 
+
+# Page Elements 
+
+## All Pages 
+
+Navbar: The navbar provides links to the index and game pages of the site and has the Seabird Survey Simulator logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller decies.
+
+## Home Page
+
+Main: A large heading, one introductory paragraphs, two small sections of text and a button that links to the game page.
+
+Footer: Bootstrap cards arranged in a responsive grid that provide links to useful resources along with attractive images.
+
+## Game Page
+
+Landscape mode messgage: If the game is opened on a mobile device in portrait mode, the only visible element is a message asking users to turn to landscape mode.
+
+Main: Contains three Bootstrap columns, the middle of which is filled with an image of a boat. The leftmost column contains a start button when the page first opens, which starts the game when clicked. Bird images, messages and buttons periodically appear in the left and right hand columns as users interact with the game.
+
+Footer: Contains a form for entering answers, which appears when users press the start button. Messages and buttons appear periodically as users interact with the game. 
+
 # Attributions
 
 ## Code
