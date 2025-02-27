@@ -46,6 +46,22 @@ Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library.
 - A pencil icon was used at the beginning of the message telling users to record what they see in the form below, hilighting that this action is needed to progress in the game. 
 
 
+### Images 
+
+Game Page:  
+
+- An image of a dorsal view of a moving boat has been used as the central image for the game. This reflects the setup of a real life survey, giving users survey experience and makes it easy to tell which side of the boat bird images are on. 
+
+- A large amount of bird images have been used for the game. Their size has been reduced as much as possible to allow for fast loading times whilst maintaining the clarity needed for the idenfication of species. 
+
+Index page: 
+
+- An attrctive image of an observer looking out to sea from a boat has been used for the BTO code card, attracting users to the linked resource. 
+
+- An attractive image of multiple seabird species has been used for the spp identification card, attracting users to the linked resource. 
+
+- The same boat image used in the game is used for the boat side card, reminding users of this aspect of the game and to follow the link provided if they ened more information. 
+
 # Attributions
 
 ## Code
