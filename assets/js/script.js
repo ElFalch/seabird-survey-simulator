@@ -158,6 +158,10 @@ document.addEventListener("DOMContentLoaded", function () {
         wrong.classList.remove("hidden");
         reset.classList.remove("hidden");
 
+// Use of setAttribute taken from: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+// Disabling form dropdowns taken from: https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
+
         numSelect.setAttribute("disabled", "");
         sideSelect.setAttribute("disabled", "");
         sppSelect.setAttribute("disabled", "");
