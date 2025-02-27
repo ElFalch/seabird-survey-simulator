@@ -89,7 +89,7 @@ Footer: Contains a form for entering answers, which appears when users press the
 
 ### HTML Validation
 
-The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). No errors or warnings were found for any of the pages. 
+The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/).
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
@@ -104,6 +104,20 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 | --------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | No errors found |![Seabird Survey Simulator CSS validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/css-validation/)   | 
 | Warnings are the result of Google fonts and css prefixes being used and do not present any issues |![](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/css-validation/)|
+
+## Automated Testing 
+
+### Lighthouse 
+
+- Automated testing of the deployed site for performance, accessibility and best practises was conducted using the [Lighthouse tool](https://developer.chrome.com/docs/lighthouse) within Chrome DevTools.  
+
+## Wave Accessibility 
+
+Further automated testing for the accessibility of the site was conducted using the [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+
+## Manual Testing 
+
+Manual testing was carried out to ensure all links, forms and JavaScript elements of the game worked as intended. Device mode in [Chrome DevTools](https://developer.chrome.com/docs/devtools) was used to ensure that the design was responsive and that features were fully functional across all device sizes. 
 
 
 # Attributions
