@@ -130,7 +130,8 @@ option {
 .card-img-top {
   height: 350px;
   width: 324px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card-title {
