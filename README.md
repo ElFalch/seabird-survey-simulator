@@ -120,6 +120,27 @@ Further automated testing for the accessibility of the site was conducted using 
 Manual testing was carried out to ensure all links, forms and JavaScript elements of the game worked as intended. Device mode in [Chrome DevTools](https://developer.chrome.com/docs/devtools) was used to ensure that the design was responsive and that features were fully functional across all device sizes. 
 
 
+# Deployment 
+
+## Cloning the GitHub Repository
+
+## Deploying Your Repository to GitHub Pages
+
+The steps to deploy to GitHub pages are as follows:
+
+1. In the specific GitHub repository page, select the "Settings" tab in the menu at the top of the screen.
+2. Select the "pages" tab on the left-hand side of the screen.
+3. Find the "Build and Deployment" section and select "main" from the left-most dropdown menu of the "Branch" sub-section then select "save" **
+
+** Note - deployement may take a few minutes. 
+
+Once deployed, the steps to access your live site are as follows:  
+
+1. In the specific GitHub repository page, select the "Code" tab in the menu at the top of the screen.
+2. Refresh the page, then select "Deployments" in the bottom-right corner of the screen
+3. Select the link at the top of the screen to open the deployed site. 
+
+
 # Attributions
 
 ## Code
