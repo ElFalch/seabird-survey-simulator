@@ -121,8 +121,9 @@ option {
 }
 
 .card-img-top {
-  max-height: 373px;
-  max-width: 325px;
+  height: 350px;
+  width: 324px;
+  object-fit: cover;
 }
 
 .card-title {
