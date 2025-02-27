@@ -77,7 +77,7 @@ Footer: Bootstrap cards arranged in a responsive grid that provide links to usef
 
 ## Game Page
 
-Landscape mode messgage: If the game is opened on a mobile device in portrait mode, the only visible element is a message asking users to turn to landscape mode.
+Landscape mode message: If the game is opened on a mobile device in portrait mode, the only visible element is a message asking users to turn to landscape mode.
 
 Main: Contains three Bootstrap columns, the middle of which is filled with an image of a boat. The leftmost column contains a start button when the page first opens, which starts the game when clicked. Bird images, messages and buttons periodically appear in the left and right hand columns as users interact with the game.
 
