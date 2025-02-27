@@ -52,14 +52,6 @@ Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library.
 
 General game layout and JS taken from: https://www.youtube.com/watch?v=riDzcEQbX6k
 
-https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
-
-https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
-
-https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
-
-https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
-
 ## Images
 
 boat.webp: [Photo by Josh Sorenson]("https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/")
