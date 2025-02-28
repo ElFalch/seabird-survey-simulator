@@ -23,6 +23,7 @@ main {
   background-color: #263b44;
   color: white;
 }
+
 /* form */
 
 label {
@@ -64,9 +65,13 @@ option {
   font-size: xx-large;
 }
 
+/* left and right columns */
+
 .bird-col {
   padding-top: 8%;
 }
+
+/* buttons */
 
 #start,
 #submit,
@@ -92,7 +97,7 @@ option {
   margin: 0 auto;
 }
 
-/* form buttons */
+/* form buttons and messages */
 
 #right,
 #next,
