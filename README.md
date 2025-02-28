@@ -269,6 +269,8 @@ Once deployed, the steps to access your live site are as follows:
 
 - [Autoprefixer](https://autoprefixer.github.io) to add css prefixes required for consistency across browsers.
 
+- [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) messages were used to describe each stage of the development of this project in a clear, consistant format. 
+
 ## Code from external sources
 
 General game layout and JS taken from: https://www.youtube.com/watch?v=riDzcEQbX6k
