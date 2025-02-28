@@ -2,6 +2,114 @@
 
 The purpose of this website is to provide training for those looking to improve their seabird survey skills and point users in the direction of relevant learning resources. 
 
+## Contents 
+
+1. <details open>
+    <summary><a href="#ux">UX</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#goals">Goals</a></summary>
+
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)
+
+    </details></li>
+
+    <li><details>
+    <summary><a href="#visual-design">Visual Design</a></summary>
+
+    - [Colours](#colours)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Images](#images)
+
+      </details></li>
+
+    </ul>
+
+</details>
+
+2. <details open>
+    <summary><a href="#page-elements">Page Elements</a></summary>
+
+    <ul>
+    <li>
+
+    - [All Pages](#all-pages)
+    - [Index Page](#index-page)
+    - [Game Page](#game-page)
+
+    </li>
+
+    </ul>
+    </details>
+
+
+3. <details open>
+    <summary><a href="#testing">Testing</a></summary>
+
+    <ul>
+
+    <li><details>
+    <summary><a href="#validation">Validation</a></summary> 
+
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+
+    </details></li>
+
+    <li><details>
+    <summary><a href="#automated-testing">Automated Testing</a></summary>
+
+    - [Lighthouse Testing](#lighthouse-testing)
+    - [Wave Accessibility Testing](#wave-accessibility-testing)
+
+    </details></li>
+
+    <li>
+
+    <summary><a href="#manual-testing">Manual Testing</a></summary>
+
+    </li>
+
+    </li>
+</ul>
+</details>
+
+4. <details open>
+    <summary><a href="#deployment">Deployment</a></summary>
+    <ul>
+    <li>
+
+    - [Cloning the GitHub Repository using Gitpod](#cloning-the-github-repository-using-gitpod)
+    - [Deploying Your Repository to GitHub Pages](#deploying-your-repository-to-github-pages)
+
+    </li>
+</ul>
+
+</details>
+
+5. <details open>
+    <summary><a href="#attributions">Attributions</a></summary>
+
+    <ul>
+
+    <li>
+
+    - [Frameworks Used](#frameworks-used)
+    - [Libraries Used](#libraries-used)
+    - [Other Tools Used](#other-tools-used)
+    - [Code From External Sources](#code-from-external-sources)
+    - [Images](#images)
+
+</li>
+
+</ul>
+
+</details>
+
+
 # UX 
 
 ## Goals
