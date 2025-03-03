@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/sitting-birds/fulmar.webp",
       "assets/images/sitting-birds/guillemot3.webp",
     ],
-    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA","KI","F","GU"],
+    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA", "KI", "F", "GU"],
     numAnswer: ["1", "1", "2", "1", "1", "1", "1", "2", "3", "2"],
     alt: [
       "An Atlantic Puffin sat on the water",
