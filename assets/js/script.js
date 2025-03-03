@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/sitting-birds/kittiwake2.webp",
     ],
     sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA","KI"],
-    numAnswer: ["1", "1", "2", "1", "1", "1", "1"],
+    numAnswer: ["1", "1", "2", "1", "1", "1", "1","2"],
     alt: [
       "An Atlantic Puffin sat on the water",
       "A Common Guillemot in Winter plumage sat on the water",
@@ -49,9 +49,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/flying-birds/european-shag2.webp",
       "assets/images/flying-birds/cormorant3.webp",
       "assets/images/flying-birds/puffin2.webp",
+      "assets/images/flying-birds/european-shag-3.webp",
     ],
-    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA", "PU"],
-    numAnswer: ["1", "1", "1", "1", "1", "1", "2"],
+    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA", "PU","SA"],
+    numAnswer: ["1", "1", "1", "1", "1", "1", "2", "2"],
     alt: [
       "A Northern Gannet flying",
       "A Common Guillemot flying",
@@ -60,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "A European Shag flying",
       "A Great Cormorant flying",
       "Two Atlantic Puffins flying",
+      "Two European Shags flying",
     ],
   };
 
