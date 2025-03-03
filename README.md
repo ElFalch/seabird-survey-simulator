@@ -291,7 +291,13 @@ cormorant2.webp: Image by [Thanasis Papazacharias]("https://pixabay.com/users/pa
 
 european-shag.webp: [Photo by Ivan]("https://www.pexels.com/photo/close-up-of-a-european-shag-in-the-water-18419539/")
 
+fulmar.webp:  Photo of Northern Fulmar uploaded from [iNaturalist]("https://www.inaturalist.org/")
+
 guillemot.webp: Photo by [Doncoombez]("https://unsplash.com/@coombez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/a-bird-floating-on-top-of-a-body-of-water-tvaZhFq4C9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") 
+
+guillemot3.webp: Photo by Ragnhild & Neil Crawford. Licensed under the [Creative Commons Attribution-Share Alike 2.0 Generic license](https://creativecommons.org/licenses/by-sa/2.0/deed.en). This image has been cropped for the purposes of this project. 
+
+kittiwake2.webp: Kittiwakes (Rissa tridactlya), Westing by Mike Pennington. Licensed under the [Creative Commons Attribution-Share Alike 2.0 Generic license](https://creativecommons.org/licenses/by-sa/2.0/deed.en).
 
 puffin.webp: Photo by [Mark Olsen]("https://unsplash.com/@markolsen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/black-and-white-bird-on-water-during-daytime-PCGC-9qW3o4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">)
 
