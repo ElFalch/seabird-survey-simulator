@@ -307,7 +307,8 @@ document.addEventListener("DOMContentLoaded", function () {
                   <option value="GU">GU</option>
                   <option value="PU">PU</option>
                   <option value="RA">RA</option>
-                  <option value="SA">SA</option>`;
+                  <option value="SA">SA</option>
+                  <option value="KI">KI</option>`;
       sideCol.classList.remove("hidden");
     }
     footer.classList.remove("hidden");
