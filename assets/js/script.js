@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/flying-birds/european-shag2.webp",
       "assets/images/flying-birds/cormorant3.webp",
       "assets/images/flying-birds/puffin2.webp",
-      "assets/images/flying-birds/european-shag-3.webp",
+      "assets/images/flying-birds/european-shag3.webp",
       "assets/images/flying-birds/cormorant4.webp",
     ],
     sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA", "PU","SA","CA"],
