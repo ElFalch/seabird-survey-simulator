@@ -22,8 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/sitting-birds/cormorant.webp",
       "assets/images/sitting-birds/european-shag.webp",
       "assets/images/sitting-birds/cormorant2.webp",
+      "assets/images/sitting-birds/kittiwake2.webp",
     ],
-    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA"],
+    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA","KI"],
     numAnswer: ["1", "1", "2", "1", "1", "1", "1"],
     alt: [
       "An Atlantic Puffin sat on the water",
@@ -33,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "A Great Cormorant sat on the water",
       "A European Shag sat on the water",
       "A Great Cormorant sat on the water",
+      "Two Kittiwakes sat on the water",
     ],
   };
   
