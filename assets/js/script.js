@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/sitting-birds/european-shag.webp",
       "assets/images/sitting-birds/cormorant2.webp",
       "assets/images/sitting-birds/kittiwake2.webp",
+      "assets/images/sitting-birds/fulmar.webp",
     ],
     sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA","KI","F"],
     numAnswer: ["1", "1", "2", "1", "1", "1", "1", "2","3"],
@@ -313,7 +314,8 @@ document.addEventListener("DOMContentLoaded", function () {
                   <option value="PU">PU</option>
                   <option value="RA">RA</option>
                   <option value="SA">SA</option>
-                  <option value="KI">KI</option>`;
+                  <option value="KI">KI</option>
+                  <option value="F">F</option>`;
       sideCol.classList.remove("hidden");
     }
     footer.classList.remove("hidden");
