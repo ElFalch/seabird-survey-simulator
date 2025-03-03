@@ -309,7 +309,11 @@ razorbill2.webp: Photo by [Anastasiya Dragun]("https://unsplash.com/@sunny_kote?
 
 cormorant3.webp: Photo by [Odd Rune Falch]("https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/")
 
-European-shag2.webp: Photo by [Odd Rune Falch]("https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/")
+cormorant4.webp: Photo by Rohit Sharma. Licensed under the [Creative Commons Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en). This image has been cropped for the purposes of this project.
+
+european-shag2.webp: Photo by [Odd Rune Falch]("https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/")
+
+european-shag3.webp: Photo by Marton Berntsen. Licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). This image has been cropped for the purposes of this project.       
 
 gannet.webp: Photo by [Wolfgang Wendefeuer]("https://www.pexels.com/photo/a-flying-northern-gannet-12827110/")
 
@@ -320,4 +324,3 @@ herring-gull.webp: Image by [Michael Kleinsasser]("https://pixabay.com/users/mik
 kittiwake.webp: Photo by [Fiona Trewartha]("https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/")
 
 puffin2.webp: Photo by [Tyler Jamieson Moulton]("https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash")
-      
