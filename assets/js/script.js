@@ -311,13 +311,13 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       questions = sitting;
       sppSelect.innerHTML = `<option selected value="0">BTO code</option>
-                  <option value="CA">CA</option>
-                  <option value="GU">GU</option>
-                  <option value="PU">PU</option>
-                  <option value="RA">RA</option>
-                  <option value="SA">SA</option>
-                  <option value="KI">KI</option>
-                  <option value="F">F</option>`;
+                <option value="CA">CA</option>
+                <option value="F">F</option>
+                <option value="GU">GU</option>
+                <option value="KI">KI</option>
+                <option value="PU">PU</option>
+                <option value="RA">RA</option>
+                <option value="SA">SA</option>`;
       sideCol.classList.remove("hidden");
     }
     footer.classList.remove("hidden");
