@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/sitting-birds/cormorant2.webp",
       "assets/images/sitting-birds/kittiwake2.webp",
     ],
-    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA","KI"],
-    numAnswer: ["1", "1", "2", "1", "1", "1", "1","2"],
+    sppAnswer: ["PU", "GU", "RA", "RA", "CA", "SA", "CA","KI","F"],
+    numAnswer: ["1", "1", "2", "1", "1", "1", "1", "2","3"],
     alt: [
       "An Atlantic Puffin sat on the water",
       "A Common Guillemot in Winter plumage sat on the water",
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "A European Shag sat on the water",
       "A Great Cormorant sat on the water",
       "Two Kittiwakes sat on the water",
+      "Three Northern Fulmars sat on the water",
     ],
   };
   
