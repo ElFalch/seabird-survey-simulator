@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "A Great Cormorant flying",
       "Two Atlantic Puffins flying",
       "Two European Shags flying",
-      "Three European Shags flying",
+      "Three Great Cormorants flying",
     ],
   };
 
