@@ -233,6 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
     next.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
+    let nextBird = portBird;
     try {
       if (side[randomSide] === "Port") {
         nextBird = portBird;
