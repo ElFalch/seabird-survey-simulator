@@ -56,8 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "assets/images/flying-birds/european-shag3.webp",
       "assets/images/flying-birds/cormorant4.webp",
     ],
-    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA", "PU","SA","CA"],
-    numAnswer: ["1", "1", "1", "1", "1", "1", "2", "2","3"],
+    sppAnswer: ["GX", "GU", "HG", "KI", "SA", "CA", "PU", "SA", "CA"],
+    numAnswer: ["1", "1", "1", "1", "1", "1", "2", "2", "3"],
     alt: [
       "A Northern Gannet flying",
       "A Common Guillemot flying",
