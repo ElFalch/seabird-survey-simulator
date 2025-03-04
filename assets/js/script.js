@@ -168,8 +168,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (questions === sitting) {
       let sidePS = formData.side.value;
       if (
-        (sppCode === questions.sppAnswer[randomBirdIndex]) &
-        (number === questions.numAnswer[randomBirdIndex]) &
+        (sppCode === questions.sppAnswer[randomBirdIndex]), 
+        (number === questions.numAnswer[randomBirdIndex]), 
         (sidePS === side[randomSide])
       ) {
         right.classList.remove("hidden");
