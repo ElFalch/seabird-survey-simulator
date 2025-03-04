@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // hide start button and show first bird image when start button is clicked
 
   function startSurvey() {
+    let firstBird = portBird;
     questions = sitting;
     startButton.classList.add("hidden");
     footer.classList.remove("hidden");
