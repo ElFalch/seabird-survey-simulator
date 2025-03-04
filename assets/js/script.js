@@ -71,6 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
     ],
   };
 
+  let questions = {};
+
+  const footer = document.getElementById("footer");
+
+  let randomBirdIndex = 0;
+
+  let randomSide = "";
+
   // hide start button and show first bird image when start button is clicked
 
   function startSurvey() {
