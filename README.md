@@ -213,6 +213,12 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 | No errors found |![Seabird Survey Simulator CSS validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/css-validation/css-validation)   | 
 | Warnings are the result of Google fonts and css prefixes being used and do not present any issues |![](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/css-validation/css-warnings)|
 
+### JavaScript Validation 
+
+The JavaScript for this project was validated using [JSHint](https://jshint.com/). No errors or warnings were found.
+
+![](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/js-validation/js-validation)
+
 ## Automated Testing 
 
 ## Lighthouse 
