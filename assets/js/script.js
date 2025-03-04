@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     } else {
       if (
-        (sppCode === questions.sppAnswer[randomBirdIndex]) &
+        (sppCode === questions.sppAnswer[randomBirdIndex]), 
         (number === questions.numAnswer[randomBirdIndex])
       ) {
         right.classList.remove("hidden");
