@@ -153,6 +153,8 @@ document.addEventListener("DOMContentLoaded", function () {
     score: [],
   };
 
+  const submit = document.getElementById("submit");
+
   // store submitted value, assess and log if it is correct or not, then give option for next step.
 
   // steps to target and use form data taken from Code Institute's Javascript Essentials module.
