@@ -161,7 +161,7 @@ Game Page:
 
 - An image of a dorsal view of a moving boat has been used as the central image for the game. This reflects the setup of a real life survey, giving users survey experience and makes it easy to tell which side of the boat bird images are on. 
 
-- A large amount of bird images have been used for the game. Their size has been reduced as much as possible to allow for fast loading times whilst maintaining the clarity needed for the idenfication of species. 
+- A large amount of bird images have been used for the game. Their size has been reduced as much as possible to allow for fast loading times whilst maintaining the clarity needed for the idenfication of species. Numbers of birds in each image vary between 1 and 3 and effort has been taken to demonstrate any variability in plumage which may occur. 
 
 Index page: 
 
