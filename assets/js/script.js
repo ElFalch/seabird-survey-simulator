@@ -233,12 +233,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // reset page and show next bird image in round 
 
   function nextSurvey() {
+    try {
     right.classList.add("hidden");
     next.classList.add("hidden");
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
     randomSide = Math.floor(Math.random() * side.length);
-    let nextBird = portBird;
-    try {
+
       if (side[randomSide] === "Port") {
         nextBird = portBird;
         recordMessagePort.classList.remove("hidden");
@@ -246,14 +246,14 @@ document.addEventListener("DOMContentLoaded", function () {
         nextBird = starBird;
         recordMessageStar.classList.remove("hidden");
       }
-    } catch (err) {
-      nextBird.src = "Error: " + err + ".";
-      nextBird.alt = "Error: " + err + ".";
-    }
     nextBird.src = questions.question[randomBirdIndex];
     nextBird.alt = questions.alt[randomBirdIndex];
     nextBird.classList.remove("hidden");
     submit.classList.remove("hidden");
+  } catch (err) {
+    nextBird.src = "Error: " + err + ".";
+    nextBird.alt = "Error: " + err + ".";
+  }
   }
 
   // define correct and incorrect results messages 
