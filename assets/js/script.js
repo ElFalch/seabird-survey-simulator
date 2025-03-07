@@ -357,11 +357,6 @@ document.addEventListener("DOMContentLoaded", function () {
         portBird.alt = "";
         recordMessagePort.classList.add("hidden");
       }
-    } catch (err) {
-      portBird.src = "Error: " + err + ".";
-      portBird.alt = "Error: " + err + ".";
-    }
-    try {
       if (starBird.alt) {
         starBird.src = "";
         starBird.alt = "";
@@ -370,7 +365,9 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (err) {
       starBird.src = "Error: " + err + ".";
       starBird.alt = "Error: " + err + ".";
-    }
+      portBird.src = "Error: " + err + ".";
+      portBird.alt = "Error: " + err + ".";
+  }
   }
 
   // reset form when try again button is clicked
