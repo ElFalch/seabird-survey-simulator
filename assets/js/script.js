@@ -229,6 +229,10 @@ document.addEventListener("DOMContentLoaded", function () {
       showAnswers();
     }
   }
+ 
+  // define nextBird (to be filled with random side)
+
+  let nextBird = portBird;
 
   // reset page and show next bird image in round 
 
