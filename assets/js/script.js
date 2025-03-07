@@ -385,4 +385,5 @@ document.addEventListener("DOMContentLoaded", function () {
     reset.classList.add("hidden");
     submit.classList.remove("hidden");
   }
+
 });
