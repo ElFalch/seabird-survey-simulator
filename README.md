@@ -165,7 +165,7 @@ Game Page:
 
 Index page: 
 
-- An attrctive image of an observer looking out to sea from a boat has been used for the BTO code card, attracting users to the linked resource. 
+- An attractive image of an observer looking out to sea from a boat has been used for the BTO code card, attracting users to the linked resource. 
 
 - An attractive image of multiple seabird species has been used for the spp identification card, attracting users to the linked resource. 
 
