@@ -281,21 +281,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // calculate and show cumulative correct and incorrect scores for each round aswell as end of round message. 
 
   function showAnswers() {
+  try {
     for (let score of answers.score) {
-      try {
         if (score === "correct") {
           correctScore = correctScore + 1;
         }
-      } catch (err) {
-        correctScore = "Error: " + err + ".";
-      }
-      try {
         if (score === "incorrect") {
           incorrectScore = incorrectScore + 1;
-        }
-      } catch (err) {
-        incorrectScore = "Error: " + err + ".";
-      }
+      } 
     }
     footer.classList.add("hidden");
     correctResults.innerText = `Correct rows: ${correctScore}`;
@@ -304,6 +297,10 @@ document.addEventListener("DOMContentLoaded", function () {
     incorrectResults.classList.remove("hidden");
     nextRoundButton.classList.remove("hidden");
     end.classList.remove("hidden");
+  } catch (err) {
+    incorrectScore = "Error: " + err + ".";
+    correctScore = "Error: " + err + ".";
+  }
   }
 
   // define the column that contains the boat side dropdown menu
