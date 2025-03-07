@@ -236,7 +236,34 @@ Manual testing was carried out to ensure all links, forms and JavaScript element
 
 # Deployment 
 
-## Cloning the GitHub Repository
+## Forking the GitHub Repository
+
+To create your own copy of a GitHub repository that you can edit, you must fork the repository using the following steps: 
+
+1. Open the repository you want to fork. 
+
+2. Click the fork button in the top-right corner of the screen. 
+
+3. Choose a new name for the repository, if you wish. 
+
+4. Click create fork. 
+
+## Cloning your Github Repository to Visual Studio Code (VS Code) 
+
+1. In your computer's file system, create a folder for the new project within the folder containing your VS Code projects. 
+
+2. Open the folder for the new project in VS Code and open a new terminal. 
+
+3. Navigate to your GitHub dashboard and open the repository you want to clone.   
+
+4. click on the code dropdown menu and copy the URL. 
+
+5. In the VS code terminal, enter git clone and paste the URL with a space and full stop at the end. For example: 
+
+git clone https://github.com/ElFalch/seabird-survey-simulator.git .
+
+6. You should now see the repository files on the left hand side of the screen and be able to push changes to Git. 
+
 
 ## Deploying Your Repository to GitHub Pages
 
