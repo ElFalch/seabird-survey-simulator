@@ -153,6 +153,7 @@ Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library.
 
 - A pencil icon was used at the beginning of the message telling users to record what they see in the form below, hilighting that this action is needed to progress in the game. 
 
+- A gaming controller icon was used to highlight the index page message explaining that game rounds alternate continuosly. 
 
 ### Images 
 
