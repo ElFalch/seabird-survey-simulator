@@ -79,10 +79,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let randomSide = "";
 
+  // define firstBird (to be filled with random side) 
+
+  let firstBird = portBird;
+
   // hide start button and show first bird image when start button is clicked
 
   function startSurvey() {
-    let firstBird = portBird;
+    try {
     questions = sitting;
     startButton.classList.add("hidden");
     footer.classList.remove("hidden");
