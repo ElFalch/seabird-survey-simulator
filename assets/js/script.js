@@ -101,7 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
      * @constructor
      * @returns {object} firstBird
      */
-    try {
       if (side[randomSide] === "Port") {
         firstBird = portBird;
         recordMessagePort.classList.remove("hidden");
@@ -111,10 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
         recordMessageStar.classList.remove("hidden");
         recordMessagePort.classList.add("hidden");
       }
-    } catch (err) {
-      firstBird.src = "Error: " + err + ".";
-      firstBird.alt = "Error: " + err + ".";
-    }
         /**
      * @lends questions.question[randomBirdIndex]
      * @constructor 
@@ -128,6 +123,11 @@ document.addEventListener("DOMContentLoaded", function () {
      */
     firstBird.alt = questions.alt[randomBirdIndex];
     firstBird.classList.remove("hidden");
+    }
+    catch (err) {
+      firstBird.src = "Error: " + err + ".";
+      firstBird.alt = "Error: " + err + ".";
+    }
   }
 
  
