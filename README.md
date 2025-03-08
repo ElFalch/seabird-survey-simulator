@@ -190,7 +190,25 @@ Landscape mode message: If the game is opened on a mobile device in portrait mod
 
 Main: Contains three Bootstrap columns, the middle of which is filled with an image of a boat. The leftmost column contains a start button when the page first opens, which starts the game when clicked. Bird images, messages and buttons periodically appear in the left and right hand columns as users interact with the game.
 
-Footer: Contains a form for entering answers, which appears when users press the start button. Messages and buttons appear periodically as users interact with the game. 
+### Start Button 
+
+When the game page is first opened, the only visible game elements are the central boat image and a start button. 
+
+
+
+### Sitting Bird Rounds
+
+When the start button is clicked, the sitting bird round begins. This consists of random images of birds sitting on the water, displayed one at a time on random sides of the boat image. 
+
+### Flying Bird Rounds
+
+
+
+Footer: Contains a form for entering answers, which appears when users press the start button. Messages and buttons appear periodically as users interact with the game.  
+
+### Form feedback 
+
+
 
 # Testing
 
