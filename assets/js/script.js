@@ -311,6 +311,7 @@ document.addEventListener("DOMContentLoaded", function () {
    * start next round, change the BTO code dropdown menu options and reveal/ hide the boat side dropdown depending on which round is being played 
    */
   function nextRound() {
+    try{
     if (questions === sitting) {
       questions = flying;
       sppSelect.innerHTML = `<option selected value="0">BTO code</option>
@@ -343,6 +344,11 @@ document.addEventListener("DOMContentLoaded", function () {
     correctScore = 0;
     incorrectScore = 0;
     nextSurvey();
+  } catch (err) {
+    sppSelect.innerHTML = "Error: " + err + ".";
+    incorrectScore = "Error: " + err + ".";
+    correctScore = "Error: " + err + ".";
+  }
   }
 
   /** 
