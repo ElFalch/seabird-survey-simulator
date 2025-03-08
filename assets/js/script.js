@@ -342,7 +342,6 @@ document.addEventListener("DOMContentLoaded", function () {
     nextSurvey();
   }
 
-
   /** 
    * clear existing bird images and messages from screen
    * is fired by the whatNext function
