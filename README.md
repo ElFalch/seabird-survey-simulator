@@ -321,6 +321,10 @@ The index page report contained alerts relating to possible headings in the main
 
 The game page report also contained an alert relating to a possible heading within the next button, however, this is not a heading so this alert was also ignored. 
 
+#### Underlined text alerts 
+
+The game page report contained an alert relating to the underlined header for the answers form footer. There is a risk that the footer header could be confused with a link when underlined, however the underline provides a clear visual distinction between the form and the header, so it was retained. 
+
 #### Wave accessibility Report Summaries
 
 | Page          | Wave Report Summary                                                                                                                             |   
