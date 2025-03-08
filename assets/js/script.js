@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let randomSide = "";
 
-  // define firstBird (to be filled with random side) 
+  // define firstBird (to be filled with either portBird or starBird) 
 
   let firstBird = portBird;
 
