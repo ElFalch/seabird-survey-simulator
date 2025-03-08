@@ -196,29 +196,55 @@ A large heading and Bootstrap cards arranged in a responsive grid that provide l
 
 ## Game Page
 
-Landscape mode message: If the game is opened on a mobile device in portrait mode, the only visible element is a message asking users to turn to landscape mode.
+The game involves the continuous repetition of two rounds in which users have to record information about either sitting or flying bird images on either side of a boat image. Due to the need for two clear images to be displayed in one row, a minimum device width of 768px is required. 
 
-Main: Contains three Bootstrap columns, the middle of which is filled with an image of a boat. The leftmost column contains a start button when the page first opens, which starts the game when clicked. Bird images, messages and buttons periodically appear in the left and right hand columns as users interact with the game.
+![Game page landscape mode message](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/turn-to-landscape.png)
 
-### Start Button 
+### Main section
 
-When the game page is first opened, the only visible game elements are the central boat image and a start button. 
+Contains three Bootstrap columns, the middle of which is filled with an image of a boat. Bird images, messages and buttons periodically appear in the left and right hand columns as users interact with the game.
 
+1. When the game page is first opened, the only visible game elements are the central boat image and a start button.
 
+![Game page start](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/start.png)
 
-### Sitting Bird Rounds
+2. When the start button is clicked, the sitting bird round begins. This consists of random images of birds sitting on the water, displayed one at a time on random sides of the boat image along with a message telling you to use the form below to record information. 
 
-When the start button is clicked, the sitting bird round begins. This consists of random images of birds sitting on the water, displayed one at a time on random sides of the boat image. 
+![Game page sitting bird image](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/sitting-bird-image.png)
 
-### Flying Bird Rounds
+3. When the next button in the footer section is clicked, a new randomly selected image on a random side of the boat will replace the first one. 
 
+![Game page sitting bird image](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/sitting-bird-next.png)
 
+4. When the next button in the footer section is clicked after the number of form submissions is above 4, the results for the sitting bird round will be displayed along with a next round button. 
 
-Footer: Contains a form for entering answers, which appears when users press the start button. Messages and buttons appear periodically as users interact with the game.  
+![Game page sitting bird image](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/next-round.png)
 
-### Form feedback 
+5. When the next round button is clicked, steps 1-4 will repeat but with images of flying birds. 
 
+![Game page sitting bird image](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/flying-bird-image.png)
 
+### Footer section
+
+Contains a header, answers form, messages and buttons which appear, disappear and change as users interact with the game.  
+
+1. A form for selecting the BTO species code, number and boat side of birds from dropdown menus appears when users press the start button. 
+
+![Game page sitting bird form](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/sitting-bird-form.png)
+
+3. If information is entered incorrectly, when users press the submit button, the dropdown menus will freeze and they will be presented with an incorrect message which refreshes the form. 
+
+![Game page incorrect answer](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/sitting-bird-incorrect.png)
+
+2. If information is entered correctly, when users press the submit button, the dropdown menus will freeze and they will be presented with a correct message and a next button. 
+
+![Game page correct answer](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/sitting-bird-correct.png)
+
+3. When the next button is pressed, the form will refresh until the number of submissions is above 4, when it will be hidden until the next round button in the main section is clicked. 
+
+4. When the next round button in the main section is clicked, the flying bird round form will be displayed, which works in the same way as the sitiing bird round form except it does not have a boat side dropdown. 
+
+![Game page flying bird form](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/flying-bird-form.png)
 
 # Testing
 
