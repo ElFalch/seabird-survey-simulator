@@ -309,6 +309,34 @@ Other significant negative influences upon Lighthouse performance scores were re
 
 Further automated testing for the accessibility of the site was conducted using the [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).
 
+#### Redundant link alerts
+
+Both page reports contained alerts relating to redundant links to the home page, due to the navbar brand and navbar menu both containing links to the home page. This alert could be resolved by removing the link from the navbar brand, but this link represents an easy and intuitive way for users to find the home page, so this alert was ignored. 
+
+There was an additional redundant link alert referring to the button in the main section of the home page linking to the game page in addition to the navbar link. This alert could be resolved by removing the button, but this button represents a clear way for users to find the game page after reading the instructions, so this alert was ignored. 
+
+#### Possible heading alerts
+
+The index page report contained alerts relating to possible headings in the main text of the cards due to this text being brief, however these are not headings, so these alerts were ignored. 
+
+The game page report also contained an alert relating to a possible heading within the next button, however, this is not a heading so this alert was also ignored. 
+
+#### Wave accessibility Report Summaries
+
+| Page          | Wave Report Summary                                                                                                                             |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-summary.png)                                   | 
+| gallery.html  |![Gallery Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-summary.png)                                 |
+
+#### Wave accessibility Report Details
+
+| Page          | Wave Report Details                                                                                                                             |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-details-1.png)                                 | 
+| index.html    |![Index Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-details-2.png)                                 |
+| game.html  |![Gallery Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-details-1.png)                               | 
+
+
 ## Manual Testing 
 
 Manual testing was carried out to ensure all links, forms and JavaScript elements of the game worked as intended. Device mode in [Chrome DevTools](https://developer.chrome.com/docs/devtools) was used to ensure that the design was responsive and that features were fully functional across all device sizes. 
