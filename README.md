@@ -198,6 +198,10 @@ A large heading and Bootstrap cards arranged in a responsive grid that provide l
 
 The game involves the continuous repetition of two rounds in which users have to record information about either sitting or flying bird images on either side of a boat image. Due to the need for two clear images to be displayed in one row, a minimum device width of 768px is required. 
 
+### Landscape mode message
+
+If the game is opened on a mobile device in portrait mode, the only visible element is a message asking users to turn to landscape mode.
+
 ![Game page landscape mode message](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/turn-to-landscape.png)
 
 ### Main section
