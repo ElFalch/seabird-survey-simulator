@@ -218,7 +218,7 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 
 The JavaScript for this project was validated using [JSHint](https://jshint.com/). No errors or warnings were found.
 
-![](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/js-validation/js-validation)
+![](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/js-validation/js-validation.png)
 
 ## Automated Testing 
 
