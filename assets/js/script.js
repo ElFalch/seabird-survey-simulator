@@ -366,12 +366,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   }
 
-  // reset form when try again button is clicked
-
-  // Use of removeAttribute taken from: https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
-
   form.addEventListener("reset", tryAgain);
 
+  /** 
+   * reset form when try again button is clicked
+   */
   function tryAgain(e) {
     numSelect.removeAttribute("disabled");
     sideSelect.removeAttribute("disabled");
