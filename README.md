@@ -202,8 +202,8 @@ The HTML for each page was validated used the [W3C Markup Validator](https://val
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page HTML validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/html-validation/index-page-validation) | 
-| game.html  |![Game Page HTML validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/html-validation/game-page-validation  |
+| index.html    |![Index Page HTML validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/html-validation/index-page-validation.png) | 
+| game.html     |![Game Page HTML validation](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/validation-images/html-validation/game-page-validation.png)  |
 
 ### CSS Validation
 
