@@ -147,6 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
    * @param {value} e - data entered in the form is compared with the correct answers for image being displayed. 
   */
   function processAnswer(e) {
+    try{
     e.preventDefault();
     submit.classList.add("hidden");
     let formData = e.target;
@@ -190,6 +191,9 @@ document.addEventListener("DOMContentLoaded", function () {
         answers.score.push("incorrect");
       }
     }
+  } catch (err) {
+    answers.score = "Error: " + err + ".";
+  }
   }
 
 // steps to target and use form data taken from Code Institute's Javascript Essentials module.
