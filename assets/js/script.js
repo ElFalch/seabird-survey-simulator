@@ -342,8 +342,11 @@ document.addEventListener("DOMContentLoaded", function () {
     nextSurvey();
   }
 
-  // clear existing bird images from screen
 
+  /** 
+   * clear existing bird images and messages from screen
+   * is fired by the whatNext function
+   */
   function clearSea() {
     try {
       if (portBird.alt) {
