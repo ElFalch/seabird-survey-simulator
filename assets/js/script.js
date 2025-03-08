@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
  
-  // define nextBird (to be filled with random side)
+  // define nextBird (to be filled with either portBird or StarBird)
 
   let nextBird = portBird;
 
