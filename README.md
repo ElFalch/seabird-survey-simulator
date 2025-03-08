@@ -180,7 +180,7 @@ Navbar: The Bootstrap navbar contains links to the index and game pages of the s
 
 ## Home Page
 
-The index page is titled "Info" and the intended to provide game instructions and information to help users answer game questions correctly. 
+The index page is titled "Info" and is intended to provide game instructions and information to help users answer game questions correctly. 
 
 ## Main section
 
