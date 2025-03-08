@@ -166,9 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
         wrong.classList.remove("hidden");
         reset.classList.remove("hidden");
 
-// Use of setAttribute taken from: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
-
-// Disabling form dropdowns taken from: https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
+  // steps to target and use form data taken from Code Institute's Javascript Essentials module.
 
         numSelect.setAttribute("disabled", "");
         sideSelect.setAttribute("disabled", "");
@@ -197,7 +195,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // reset form, call clearSea function and either call next Survey or showanswers function when next button is clicked
+// Use of setAttribute taken from: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+// Disabling form dropdowns taken from: https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
 
   next.addEventListener("click", whatNext);
 
