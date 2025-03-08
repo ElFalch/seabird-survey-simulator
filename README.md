@@ -180,9 +180,19 @@ Navbar: The Bootstrap navbar contains links to the index and game pages of the s
 
 ## Home Page
 
-Main: A large heading, one introductory paragraphs, two small sections of text and a button that links to the game page.
+The index page is titled "Info" and the intended to provide game instructions and information to help users answer game questions correctly. 
 
-Footer: Bootstrap cards arranged in a responsive grid that provide links to useful resources along with attractive images.
+## Main section
+
+A large heading, one introductory paragraph and two small sections of text that explain how to play the game along with a button that links to the game page.
+
+![Index Page main section](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/index-page/how-to-play.png)
+
+## Footer section
+ 
+A large heading and Bootstrap cards arranged in a responsive grid that provide links to useful resources along with attractive images.
+
+![Index Page footer section](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/index-page/useful-links.png)
 
 ## Game Page
 
