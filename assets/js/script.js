@@ -304,8 +304,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nextRoundButton.addEventListener("click", nextRound);
 
-  // start next round, change the BTO code dropdown menu options and reveal/ hide the boat side dropdown depending on which round is being played 
-
+  /** 
+   * start next round, change the BTO code dropdown menu options and reveal/ hide the boat side dropdown depending on which round is being played 
+   */
   function nextRound() {
     if (questions === sitting) {
       questions = flying;
