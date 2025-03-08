@@ -269,8 +269,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let correctScore = 0;
   let incorrectScore = 0;
 
-  // calculate and show cumulative correct and incorrect scores for each round aswell as end of round message. 
-
+  /** 
+   * calculate and show cumulative correct and incorrect scores for each round aswell as end of round message. 
+   * is fired by whatNext function if number of answers in round is more than or equal to 5. 
+   */
   function showAnswers() {
   try {
     for (let score of answers.score) {
