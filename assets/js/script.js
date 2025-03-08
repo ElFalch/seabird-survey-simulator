@@ -142,10 +142,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const submit = document.getElementById("submit");
 
-  // store submitted value, assess and log if it is correct or not, then give option for next step.
-
-  // steps to target and use form data taken from Code Institute's Javascript Essentials module.
-
+  /** 
+   * store submitted values, assess and log if they are correct or not, then give option for next step.
+   * @param {value} e - data entered in the form is compared with the correct answers for image being displayed. 
+  */
   function processAnswer(e) {
     e.preventDefault();
     submit.classList.add("hidden");
