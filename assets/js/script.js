@@ -85,28 +85,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let firstBird = portBird;
 
-  // hide start button and show first bird image when start button is clicked
-
+  /** 
+   * hides start button and shows first random bird image on a random side when start button is clicked
+   * @generator 
+   * @yields {number} randomBirdIndex - is used to determine which bird image is displayed first
+   * @yields {number} randomSide - is used to determine which side the first bird image is displayed on
+  */
   function startSurvey() {
     try {
     questions = sitting;
     startButton.classList.add("hidden");
     footer.classList.remove("hidden");
-    /**
-     * @generator
-     * @yields {number} randomBirdIndex
-     */
     randomBirdIndex = Math.floor(Math.random() * questions.question.length);
-    /**
-     * @generator
-     * @yields {number} randomSide
-     */
     randomSide = Math.floor(Math.random() * side.length);
-    /**
-     * @lends side[randomSide]
-     * @constructor
-     * @returns {object} firstBird
-     */
       if (side[randomSide] === "Port") {
         firstBird = portBird;
         recordMessagePort.classList.remove("hidden");
@@ -116,17 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         recordMessageStar.classList.remove("hidden");
         recordMessagePort.classList.add("hidden");
       }
-        /**
-     * @lends questions.question[randomBirdIndex]
-     * @constructor 
-     * @returns {string} firstBird.src
-     */
     firstBird.src = questions.question[randomBirdIndex];
-    /**
-     * @lends questions.alt[randomBirdIndex]
-     * @constructor 
-     * @returns {string} firstBird.alt
-     */
     firstBird.alt = questions.alt[randomBirdIndex];
     firstBird.classList.remove("hidden");
     }
