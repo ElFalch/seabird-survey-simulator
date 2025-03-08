@@ -165,9 +165,6 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
         wrong.classList.remove("hidden");
         reset.classList.remove("hidden");
-
-  // steps to target and use form data taken from Code Institute's Javascript Essentials module.
-
         numSelect.setAttribute("disabled", "");
         sideSelect.setAttribute("disabled", "");
         sppSelect.setAttribute("disabled", "");
@@ -194,6 +191,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   }
+
+// steps to target and use form data taken from Code Institute's Javascript Essentials module.
 
 // Use of setAttribute taken from: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
 
