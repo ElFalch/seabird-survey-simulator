@@ -284,6 +284,27 @@ The JavaScript for this project was validated using [JSHint](https://jshint.com/
 
 - Automated testing of the deployed site for performance, accessibility and best practises was conducted using the [Lighthouse tool](https://developer.chrome.com/docs/lighthouse) within Chrome DevTools.  
 
+#### Lighthouse Report Summaries
+
+The total score for performance was 74% for the index page and 99% for the game page. The total score for accessibility and best practices was 100% for both of the pages. 
+
+| Page          | Lighthouse Report Summary                                                                                                                             |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/index-lighthouse-summary.png)                       | 
+| game.html     |![Gallery Page Lighthouse Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-summary.png)                     |
+
+
+#### Lighthouse performance report diagnostics
+
+The main negative influence upon Lighthouse performance scores for this site was the large size of some bird images. However, images were optimised and their size was reduced as much as possible whilst allowing users to easily identify the species depicted. Given the importance of clear images to the game, and that each page loads fairly quickly with an overall performance score of atleast 70%, it was decided to not reduce the size of the images any further. 
+
+Other significant negative influences upon Lighthouse performance scores were related to the loading of external libraries, so couldn't be resolved without removing the content of the website, something which wasn't attempted due to the already high overall performance scores of each page. 
+
+| Page          | Lighthouse Report Diagnostics                                                                                                                         |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/index-lighthouse-diagnostics.png)                   | 
+| gallery.html  |![Gallery Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-diagnostics.png)                 |
+
 ## Wave Accessibility 
 
 Further automated testing for the accessibility of the site was conducted using the [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).
