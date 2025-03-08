@@ -220,8 +220,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let nextBird = portBird;
 
-  // reset page and show next bird image in round 
-
+  /** 
+   * reset form, call clearSea function and either call next Survey or showanswers function when next button is clicked
+   * is fired by whatNext function if number of answers in round is less than 5
+   * @generator 
+   * @yields {number} randomBirdIndex - is used to determine which bird image is displayed next
+   * @yields {number} randomSide - is used to determine which side the next bird image is displayed on
+   */
   function nextSurvey() {
     try {
     right.classList.add("hidden");
