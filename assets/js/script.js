@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startButton.addEventListener("click", startSurvey);
 
-  // sides
+  // Define boat sides
 
   const side = ["Port", "Star"];
 
-  // correct answers, src and alt text for each sitting bird image
+  // Define correct answers, src and alt text for each sitting bird image
 
   const sitting = {
     question: [
