@@ -69,6 +69,7 @@ The purpose of this website is to provide training for those looking to improve 
 
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [JavaScript Validation](#javascript-validation)
 
     </details></li>
 
@@ -83,6 +84,12 @@ The purpose of this website is to provide training for those looking to improve 
     <li>
 
     <summary><a href="#manual-testing">Manual Testing</a></summary>
+
+    </li>
+
+    <li>
+
+    <summary><a href="#try-catch-statements">Try Catch Statements</a></summary>
 
     </li>
 
