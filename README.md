@@ -461,52 +461,52 @@ Once deployed, the steps to access your live site are as follows:
 
 ## Images
 
-boat.webp: [Photo by Josh Sorenson](https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/)
+- boat.webp: [Photo by Josh Sorenson](https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/)
 
-observer.webp: [Photo by Tolga Ahmetler](https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/)
+- observer.webp: [Photo by Tolga Ahmetler](https://www.pexels.com/photo/serene-istanbul-ferry-ride-at-sunset-30540273/)
 
-seabirds.webp: Photo by [Nicolas DC](https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>)
+- seabirds.webp: Photo by [Nicolas DC](https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>)
 
-image used to create favicons: tweemoji, copyright 2020 Twitter. Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- image used to create favicons: tweemoji, copyright 2020 Twitter. Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Sitting Birds
 
-cormorant.webp: Photo by [Santiago Lacarta](https://unsplash.com/@lacarta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-duck-on-water-during-daytime-egn655y_D5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- cormorant.webp: Photo by [Santiago Lacarta](https://unsplash.com/@lacarta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-duck-on-water-during-daytime-egn655y_D5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-cormorant2.webp: Image by [Thanasis Papazacharias](https://pixabay.com/users/papazachariasa-12696704/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6142893) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6142893)
+- cormorant2.webp: Image by [Thanasis Papazacharias](https://pixabay.com/users/papazachariasa-12696704/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6142893) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6142893)
 
-european-shag.webp: [Photo by Ivan](https://www.pexels.com/photo/close-up-of-a-european-shag-in-the-water-18419539/)
+- european-shag.webp: [Photo by Ivan](https://www.pexels.com/photo/close-up-of-a-european-shag-in-the-water-18419539/)
 
-fulmar.webp:  Photo of Northern Fulmar uploaded from [iNaturalist](https://www.inaturalist.org/)
+- fulmar.webp:  Photo of Northern Fulmar uploaded from [iNaturalist](https://www.inaturalist.org/)
 
-guillemot.webp: Photo by [Doncoombez](https://unsplash.com/@coombez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-bird-floating-on-top-of-a-body-of-water-tvaZhFq4C9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) 
+- guillemot.webp: Photo by [Doncoombez](https://unsplash.com/@coombez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-bird-floating-on-top-of-a-body-of-water-tvaZhFq4C9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) 
 
-guillemot3.webp: Photo by Ragnhild & Neil Crawford. Licensed under the [Creative Commons Attribution-Share Alike 2.0 Generic license](https://creativecommons.org/licenses/by-sa/2.0/deed.en). This image has been cropped for the purposes of this project. 
+- guillemot3.webp: Photo by Ragnhild & Neil Crawford. Licensed under the [Creative Commons Attribution-Share Alike 2.0 Generic license](https://creativecommons.org/licenses/by-sa/2.0/deed.en). This image has been cropped for the purposes of this project. 
 
-kittiwake2.webp: Kittiwakes (Rissa tridactlya), Westing by Mike Pennington. Licensed under the [Creative Commons Attribution-Share Alike 2.0 Generic license](https://creativecommons.org/licenses/by-sa/2.0/deed.en).
+- kittiwake2.webp: Kittiwakes (Rissa tridactlya), Westing by Mike Pennington. Licensed under the [Creative Commons Attribution-Share Alike 2.0 Generic license](https://creativecommons.org/licenses/by-sa/2.0/deed.en).
 
-puffin.webp: Photo by [Mark Olsen](https://unsplash.com/@markolsen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash](https://unsplash.com/photos/black-and-white-bird-on-water-during-daytime-PCGC-9qW3o4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- puffin.webp: Photo by [Mark Olsen](https://unsplash.com/@markolsen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash](https://unsplash.com/photos/black-and-white-bird-on-water-during-daytime-PCGC-9qW3o4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-razorbill.webp: Photo by [Nicolas DC](https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- razorbill.webp: Photo by [Nicolas DC](https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
       
-razorbill2.webp: Photo by [Anastasiya Dragun](https://unsplash.com/@sunny_kote?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/a-black-and-white-bird-floating-on-top-of-a-body-of-water-qthrJinqNRk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- razorbill2.webp: Photo by [Anastasiya Dragun](https://unsplash.com/@sunny_kote?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash") on [Unsplash]("https://unsplash.com/photos/a-black-and-white-bird-floating-on-top-of-a-body-of-water-qthrJinqNRk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ### Flying Birds
 
-cormorant3.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
+- cormorant3.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
 
-cormorant4.webp: Photo by Rohit Sharma. Licensed under the [Creative Commons Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en). This image has been cropped for the purposes of this project.
+- cormorant4.webp: Photo by Rohit Sharma. Licensed under the [Creative Commons Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en). This image has been cropped for the purposes of this project.
 
-european-shag2.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
+- european-shag2.webp: Photo by [Odd Rune Falch](https://www.pexels.com/photo/black-and-yellow-bird-flying-over-the-water-11682093/)
 
-european-shag3.webp: Photo by Marton Berntsen. Licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). This image has been cropped for the purposes of this project.       
+- european-shag3.webp: Photo by Marton Berntsen. Licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en). This image has been cropped for the purposes of this project.       
 
-gannet.webp: Photo by [Wolfgang Wendefeuer](https://www.pexels.com/photo/a-flying-northern-gannet-12827110/)
+- gannet.webp: Photo by [Wolfgang Wendefeuer](https://www.pexels.com/photo/a-flying-northern-gannet-12827110/)
 
 guillemot2.webp: Image by [danny moore](https://pixabay.com/users/dannymoore1973-1813225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282)
 
-herring-gull.webp: Image by [Michael Kleinsasser](https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143)
+- herring-gull.webp: Image by [Michael Kleinsasser](https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143)
 
-kittiwake.webp: Photo by [Fiona Trewartha](https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/)
+- kittiwake.webp: Photo by [Fiona Trewartha](https://www.pexels.com/photo/photo-of-a-flying-seagull-19825875/)
 
-puffin2.webp: Photo by [Tyler Jamieson Moulton](https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- puffin2.webp: Photo by [Tyler Jamieson Moulton](https://unsplash.com/@moultoty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-couple-of-birds-flying-over-a-body-of-water-zL1_C4E91-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
