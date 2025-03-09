@@ -308,7 +308,7 @@ The JavaScript for this project was validated using [JSHint](https://jshint.com/
 
 ## Lighthouse 
 
-- Automated testing of the deployed site for performance, accessibility and best practises was conducted using the [Lighthouse tool](https://developer.chrome.com/docs/lighthouse) within Chrome DevTools.  
+Automated testing of the deployed site for performance, accessibility and best practises was conducted using the [Lighthouse tool](https://developer.chrome.com/docs/lighthouse) within Chrome DevTools.  
 
 #### Lighthouse Report Summaries
 
