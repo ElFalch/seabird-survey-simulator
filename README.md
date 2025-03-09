@@ -249,6 +249,8 @@ Contains three Bootstrap columns, the middle of which is filled with an image of
 
 ![Game page sitting bird image](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/feature-images/game-page/flying-bird-image.png)
 
+6. When step 5 is reached again, steps 1-4 will repeat but with images of sitting birds.  
+
 ### Footer section
 
 Contains a header, answers form, messages and buttons which appear, disappear and change as users interact with the game.  
