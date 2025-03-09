@@ -34,9 +34,12 @@ The purpose of this website is to provide training for those looking to improve 
     <summary><a href="#page-elements">Page Elements</a></summary>
 
     <ul>
-    <li><details>
+
+    <li>
+
     <summary><a href="#all-pages">All Pages</a></summary>
-    </details></li>
+    
+    </li>
 
     <li><details>
     <summary><a href="#home-page">Home Page</a></summary>
