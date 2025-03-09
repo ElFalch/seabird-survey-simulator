@@ -503,7 +503,7 @@ Once deployed, the steps to access your live site are as follows:
 
 - gannet.webp: Photo by [Wolfgang Wendefeuer](https://www.pexels.com/photo/a-flying-northern-gannet-12827110/)
 
-guillemot2.webp: Image by [danny moore](https://pixabay.com/users/dannymoore1973-1813225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282)
+- guillemot2.webp: Image by [danny moore](https://pixabay.com/users/dannymoore1973-1813225/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1119282)
 
 - herring-gull.webp: Image by [Michael Kleinsasser](https://pixabay.com/users/mike_68-10359383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4349143)
 
