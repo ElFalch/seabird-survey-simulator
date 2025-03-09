@@ -1,6 +1,9 @@
 // Only start game when DOM is loaded - taken from Code Institute's Love Maths - Essentials Project module 
 
 document.addEventListener("DOMContentLoaded", function () {
+
+  // define initial page elements
+
   const startButton = document.getElementById("start");
   let portBird = document.getElementById("port-bird");
   let starBird = document.getElementById("star-bird");
