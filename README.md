@@ -379,6 +379,8 @@ As an extra measure to ensure functions worked as intended, try catch statements
 
 # Deployment 
 
+This project was deployed to GitHub Pages. The deployed site can be found [here](https://elfalch.github.io/seabird-survey-simulator/) 
+
 ## Forking the GitHub Repository
 
 To create your own copy of a GitHub repository that you can edit, you must fork the repository using the following steps: 
