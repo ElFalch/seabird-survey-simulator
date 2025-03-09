@@ -277,7 +277,7 @@ Contains a header, answers form, messages and buttons which appear, disappear an
 
 ### HTML Validation
 
-The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). No errors or warnings were found for the index page, however for the game page, errors occured because of empty src values for the port and starboard bird images. As the game is played and the inner html of these images is filled, these errors disappear. Warnings relating to empty headings in the correct and incorrect messages also disappear once a round is compelted and these messages are filled. 
+The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). No errors or warnings were found for the index page, however for the game page, errors occured because of empty src values for the port and starboard bird images. As the game is played the inner html of these images is filled and these errors disappear.
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
