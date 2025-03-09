@@ -207,6 +207,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Disabling form dropdowns taken from: https://stackoverflow.com/questions/1227212/how-to-disable-the-entire-dropdown-control-in-html
 
+
+// event listener for next button click, which fires whatNext function
+
   next.addEventListener("click", whatNext);
 
   /** 
