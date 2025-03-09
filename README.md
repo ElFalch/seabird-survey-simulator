@@ -351,7 +351,7 @@ The game page report contained an alert relating to the underlined header for th
 | Page          | Wave Report Summary                                                                                                                             |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | index.html    |![Index Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-summary.png)                                   | 
-| gallery.html  |![Gallery Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-summary.png)                                 |
+| gallery.html  |![Game Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-summary.png)                                 |
 
 #### Wave accessibility Report Details
 
@@ -359,7 +359,7 @@ The game page report contained an alert relating to the underlined header for th
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | index.html    |![Index Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-details-1.png)                                 | 
 | index.html    |![Index Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-details-2.png)                                 |
-| game.html  |![Gallery Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-details-1.png)                               | 
+| game.html  |![Game Page Wave Report Details](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-details.png)                               | 
 
 
 ## Manual Testing 
