@@ -371,6 +371,7 @@ Manual testing was carried out to ensure all links, forms and JavaScript element
 
 As an extra measure to ensure functions worked as intended, try catch statements were implemented within Javascript functions to produce error messages if errors occured. 
 
+
 # Deployment 
 
 ## Forking the GitHub Repository
