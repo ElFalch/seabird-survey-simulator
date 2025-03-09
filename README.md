@@ -448,6 +448,10 @@ Once deployed, the steps to access your live site are as follows:
 
 - General structure and code for dropdown menu contents section of ReadMe taken from the GitHub repository [horizon-photo](https://github.com/Ri-Dearg/horizon-photo/tree/main)
 
+- Docstring comment format taken from [here](https://jsdoc.app/about-getting-started)
+
+- try catch statement format taken from [here](https://www.w3schools.com/jsref/jsref_try_catch.asp)
+
 ## Images
 
 boat.webp: [Photo by Josh Sorenson]("https://www.pexels.com/photo/bird-s-eye-photography-of-boat-570987/")
