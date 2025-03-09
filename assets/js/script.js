@@ -383,6 +383,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   }
 
+// event listener for try again button click that fires the tryAgain function
+
   form.addEventListener("reset", tryAgain);
 
   /** 
