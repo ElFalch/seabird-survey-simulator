@@ -150,7 +150,7 @@ option {
 
 /* Media Queries */
 
-/* Small devices (landscape phones, less than 950px) */
+/* Small devices (landscape phones and portrait tablets less than 950px width) */
 
 @media screen and (max-width: 950px) {
   #start,
