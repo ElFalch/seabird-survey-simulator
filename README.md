@@ -314,7 +314,7 @@ The total score for performance was 74% for the index page and 99% for the game 
 | Page          | Lighthouse Report Summary                                                                                                                             |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/index-lighthouse-summary.png)                       | 
-| game.html     |![Gallery Page Lighthouse Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-summary.png)                     |
+| game.html     |![Game Page Lighthouse Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-summary.png)                     |
 
 
 #### Lighthouse performance report diagnostics
@@ -326,7 +326,7 @@ Other significant negative influences upon Lighthouse performance scores were re
 | Page          | Lighthouse Report Diagnostics                                                                                                                         |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/index-lighthouse-diagnostics.png)                   | 
-| game.html  |![Gallery Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-diagnostics.png)                 |
+| game.html  |![Game Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-diagnostics.png)                 |
 
 ## Wave Accessibility 
 
