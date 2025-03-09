@@ -444,7 +444,7 @@ Once deployed, the steps to access your live site are as follows:
 
 ## Code from external sources
 
-- General game layout, JS and css used to hide and reveal elements taken from [Web Dev Simplified Build a Quiz App With JavaScript Tutorial] https://www.youtube.com/watch?v=riDzcEQbX6k 
+- General game layout, functions and styling including systems used to hide and reveal elements taken from [Web Dev Simplified Build a Quiz App With JavaScript Tutorial] https://www.youtube.com/watch?v=riDzcEQbX6k 
 
 - General structure and code for dropdown menu contents section of ReadMe taken from the GitHub repository [horizon-photo](https://github.com/Ri-Dearg/horizon-photo/tree/main)
 
