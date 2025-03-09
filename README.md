@@ -467,6 +467,8 @@ observer.webp: [Photo by Tolga Ahmetler](https://www.pexels.com/photo/serene-ist
 
 seabirds.webp: Photo by [Nicolas DC](https://unsplash.com/@nicolasdc20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/three-ducks-on-sea-lMscASxB-NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>)
 
+image used to create favicons: tweemoji, copyright 2020 Twitter. Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 ### Sitting Birds
 
 cormorant.webp: Photo by [Santiago Lacarta](https://unsplash.com/@lacarta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-duck-on-water-during-daytime-egn655y_D5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
