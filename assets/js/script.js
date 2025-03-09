@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let starBird = document.getElementById("star-bird");
   const recordMessagePort = document.getElementById("record-message-port");
   const recordMessageStar = document.getElementById("record-message-star");
+  const footer = document.getElementById("footer");
 
   startButton.addEventListener("click", startSurvey);
 
