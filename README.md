@@ -385,7 +385,7 @@ To create your own copy of a GitHub repository that you can edit, you must fork 
 
 4. Click create fork. 
 
-## Cloning your Github Repository to Visual Studio Code (VS Code) 
+## Cloning your Github Repository to Visual Studio Code
 
 1. In your computer's file system, create a folder for the new project within the folder containing your VS Code projects. 
 
