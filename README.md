@@ -367,7 +367,7 @@ The game page report contained an alert relating to the underlined header for th
 Manual testing was carried out to ensure all links, forms and JavaScript elements of the game worked as intended. Device mode in [Chrome DevTools](https://developer.chrome.com/docs/devtools) was used to ensure that the design was responsive and that features were fully functional across all device sizes. 
 
 
-## Checking for JavaScript errors with try catch statements 
+## Try Catch Statements 
 
 As an extra measure to ensure functions worked as intended, try catch statements were implemented within Javascript functions to produce error messages if errors occured. 
 
