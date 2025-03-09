@@ -77,9 +77,11 @@ document.addEventListener("DOMContentLoaded", function () {
     ],
   };
 
+  // Define blank questions object (to be filled with form entries) 
+
   let questions = {};
 
-  const footer = document.getElementById("footer");
+  // Define blank randomBirdIndex and randomSide variables (to be filled with randomly generated values)
 
   let randomBirdIndex = 0;
 
