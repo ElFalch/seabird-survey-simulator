@@ -371,7 +371,7 @@ Manual testing was carried out to ensure all links, forms and JavaScript element
 
 ## Try Catch Statements 
 
-As an extra measure to ensure functions worked as intended, try catch statements were implemented within Javascript functions to produce error messages if errors occured. 
+As an extra measure to ensure functions worked as intended, try catch statements were implemented within Javascript functions to produce error messages if errors occured during the manual testing process, of which there were none. 
 
 
 # Deployment 
