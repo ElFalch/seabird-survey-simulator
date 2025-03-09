@@ -351,7 +351,7 @@ The game page report contained an alert relating to the underlined header for th
 | Page          | Wave Report Summary                                                                                                                             |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | index.html    |![Index Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/index-wave-summary.png)                                   | 
-| gallery.html  |![Game Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-summary.png)                                 |
+| game.html  |![Game Page Wave Report Summary](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/wave-testing/game-wave-summary.png)                                 |
 
 #### Wave accessibility Report Details
 
