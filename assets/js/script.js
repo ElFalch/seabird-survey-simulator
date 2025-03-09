@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ],
   };
   
-  // correct answers, src and alt text for each flying bird image
+  // Define correct answers, src and alt text for each flying bird image
 
   const flying = {
     question: [
