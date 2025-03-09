@@ -34,13 +34,26 @@ The purpose of this website is to provide training for those looking to improve 
     <summary><a href="#page-elements">Page Elements</a></summary>
 
     <ul>
-    <li>
+    <li><details>
+    <summary><a href="#all-pages">All Pages</a></summary>
+    </details></li>
 
-    - [All Pages](#all-pages)
-    - [Index Page](#index-page)
-    - [Game Page](#game-page)
+    <li><details>
+    <summary><a href="#home-page">Home Page</a></summary>
 
-    </li>
+    - [Main section](#main-section)
+    - [Footer section](#footer-section)
+
+      </details></li>
+
+    <li><details>
+    <summary><a href="#game-page">Game Page</a></summary>
+
+    - [Landscape mode message](#landscape-mode-message)
+    - [Main section](#main-section)
+    - [Footer section](#footer-section)
+    
+      </details></li>
 
     </ul>
     </details>
