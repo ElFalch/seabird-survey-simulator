@@ -326,7 +326,7 @@ Other significant negative influences upon Lighthouse performance scores were re
 | Page          | Lighthouse Report Diagnostics                                                                                                                         |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/index-lighthouse-diagnostics.png)                   | 
-| gallery.html  |![Gallery Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-diagnostics.png)                 |
+| game.html  |![Gallery Page Lighthouse Report Diagnostics](https://github.com/ElFalch/seabird-survey-simulator/blob/main/assets/images/testing-images/lighthouse-testing/game-lighthouse-diagnostics.png)                 |
 
 ## Wave Accessibility 
 
