@@ -102,7 +102,8 @@ The purpose of this website is to provide training for those looking to improve 
     <ul>
     <li>
 
-    - [Cloning the GitHub Repository using Gitpod](#cloning-the-github-repository-using-gitpod)
+    - [Forking the Github Repository](#forking-the-github-repository)
+    - [Cloning Your Repository to Visual Studio Code](#cloning-your-repository-to-visual-studio-code)
     - [Deploying Your Repository to GitHub Pages](#deploying-your-repository-to-github-pages)
 
     </li>
