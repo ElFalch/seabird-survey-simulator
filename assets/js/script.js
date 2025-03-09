@@ -123,7 +123,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
- 
   // Define form and add event listener for submission that calls processAnswer function
 
   let form = document.querySelector("#form");
