@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
   next.addEventListener("click", whatNext);
 
   /** 
-   *  reset form, call clearSea function and either call next Survey or showanswers function when next button is clicked
+   *  reset form, call clearSea function and either call next Survey or showanswers function when next button is clicked depending on number of submissions
   */
   function whatNext() {
     clearSea();
